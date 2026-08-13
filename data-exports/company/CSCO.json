@@ -1,0 +1,5999 @@
+{
+  "ticker": "CSCO",
+  "name": "CISCO SYSTEMS, INC.",
+  "cik": "0000858877",
+  "price": {
+    "value": 113.47,
+    "date": "2026-08-13",
+    "source": {
+      "url": "https://api.tiingo.com/tiingo/daily/CSCO/prices",
+      "source_tier": "T2",
+      "retrieved_at": "2026-08-13T23:04:40Z"
+    }
+  },
+  "fundamentals_source": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000858877.json",
+    "source_tier": "T1",
+    "retrieved_at": "2026-08-13T23:23:15Z"
+  },
+  "fundamentals_history": [
+    {
+      "fiscal_year": 2025,
+      "facts": {
+        "BUYBACKS": 6000000000.0,
+        "CAPEX": 905000000.0,
+        "CASH_AND_EQUIVALENTS": 8346000000.0,
+        "COST_OF_REVENUE": 19864000000.0,
+        "CURRENT_ASSETS": 34986000000.0,
+        "CURRENT_LIABILITIES": 35064000000.0,
+        "DEPRECIATION_AMORTIZATION": 700000000.0,
+        "DIVIDENDS_PAID": 6437000000.0,
+        "EPS_DILUTED": 2.55,
+        "LONG_TERM_DEBT": 22861000000.0,
+        "NET_INCOME": 10180000000.0,
+        "OPERATING_CASH_FLOW": 14193000000.0,
+        "OPERATING_INCOME": 11760000000.0,
+        "REVENUE": 56654000000.0,
+        "SHARES_DILUTED": 3998000000.0,
+        "SHORT_TERM_DEBT": 5232000000.0,
+        "STOCKHOLDERS_EQUITY": 46843000000.0,
+        "TOTAL_ASSETS": 122291000000.0,
+        "TOTAL_LIABILITIES": 75448000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6493804497475907,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 56654000000.0,
+            "cost_of_revenue": 19864000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.20757581106364953,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 56654000000.0,
+            "operating_income": 11760000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.17968722420305716,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 56654000000.0,
+            "net_income": 10180000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 13288000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 14193000000.0,
+            "capex": 905000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.23454654569845024,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 13288000000.0,
+            "revenue": 56654000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.305304518664047,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 13288000000.0,
+            "net_income": 10180000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 0.9977754962354551,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 34986000000.0,
+            "current_liabilities": 35064000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.599726746792477,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 22861000000.0,
+            "short_term_debt": 5232000000.0,
+            "stockholders_equity": 46843000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.21732169160813783,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 10180000000.0,
+            "stockholders_equity": 46843000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.08324406538502424,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 10180000000.0,
+            "total_assets": 122291000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.015974158929643097,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 905000000.0,
+            "revenue": 56654000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.6323182711198428,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 6437000000.0,
+            "net_income": 10180000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.8762770379764673,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 6437000000.0,
+            "buybacks": 6000000000.0,
+            "operating_cash_flow": 14193000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.05298961024478189,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 56654000000.0,
+            "prior_revenue": 53803000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.013565891472868217,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 10180000000.0,
+            "prior_net_income": 10320000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.003937007874015664,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.55,
+            "prior_eps_diluted": 2.54
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "facts": {
+        "BUYBACKS": 5787000000.0,
+        "CAPEX": 670000000.0,
+        "CASH_AND_EQUIVALENTS": 7508000000.0,
+        "COST_OF_REVENUE": 18975000000.0,
+        "CURRENT_ASSETS": 36862000000.0,
+        "CURRENT_LIABILITIES": 40584000000.0,
+        "DEPRECIATION_AMORTIZATION": 700000000.0,
+        "DIVIDENDS_PAID": 6384000000.0,
+        "EPS_DILUTED": 2.54,
+        "LONG_TERM_DEBT": 19621000000.0,
+        "NET_INCOME": 10320000000.0,
+        "OPERATING_CASH_FLOW": 10880000000.0,
+        "OPERATING_INCOME": 12181000000.0,
+        "REVENUE": 53803000000.0,
+        "SHARES_DILUTED": 4062000000.0,
+        "SHORT_TERM_DEBT": 11341000000.0,
+        "STOCKHOLDERS_EQUITY": 45457000000.0,
+        "TOTAL_ASSETS": 124413000000.0,
+        "TOTAL_LIABILITIES": 78956000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6473244986339052,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 53803000000.0,
+            "cost_of_revenue": 18975000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.22640001486905934,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 53803000000.0,
+            "operating_income": 12181000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.1918108655651172,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 53803000000.0,
+            "net_income": 10320000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 10210000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 10880000000.0,
+            "capex": 670000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.18976636990502388,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 10210000000.0,
+            "revenue": 53803000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 0.9893410852713178,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 10210000000.0,
+            "net_income": 10320000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 0.9082889808791642,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 36862000000.0,
+            "current_liabilities": 40584000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.6811272191301669,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 19621000000.0,
+            "short_term_debt": 11341000000.0,
+            "stockholders_equity": 45457000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.22702774050201288,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 10320000000.0,
+            "stockholders_equity": 45457000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.08294953099756457,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 10320000000.0,
+            "total_assets": 124413000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.012452837202386484,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 670000000.0,
+            "revenue": 53803000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.6186046511627907,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 6384000000.0,
+            "net_income": 10320000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 1.1186580882352941,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 6384000000.0,
+            "buybacks": 5787000000.0,
+            "operating_cash_flow": 10880000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": -0.05605459840696165,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 53803000000.0,
+            "prior_revenue": 56998000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.18179655910568462,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 10320000000.0,
+            "prior_net_income": 12613000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.17263843648208463,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.54,
+            "prior_eps_diluted": 3.07
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "facts": {
+        "BUYBACKS": 4293000000.0,
+        "CAPEX": 849000000.0,
+        "CASH_AND_EQUIVALENTS": 10123000000.0,
+        "COST_OF_REVENUE": 21245000000.0,
+        "CURRENT_ASSETS": 43348000000.0,
+        "CURRENT_LIABILITIES": 31309000000.0,
+        "DEPRECIATION_AMORTIZATION": 700000000.0,
+        "DIVIDENDS_PAID": 6302000000.0,
+        "EPS_DILUTED": 3.07,
+        "LONG_TERM_DEBT": 6658000000.0,
+        "NET_INCOME": 12613000000.0,
+        "OPERATING_CASH_FLOW": 19886000000.0,
+        "OPERATING_INCOME": 15031000000.0,
+        "REVENUE": 56998000000.0,
+        "SHARES_DILUTED": 4105000000.0,
+        "SHORT_TERM_DEBT": 1733000000.0,
+        "STOCKHOLDERS_EQUITY": 44353000000.0,
+        "TOTAL_ASSETS": 101852000000.0,
+        "TOTAL_LIABILITIES": 57499000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6272676234253833,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 56998000000.0,
+            "cost_of_revenue": 21245000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.26371100740376857,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 56998000000.0,
+            "operating_income": 15031000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.2212884662619741,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 56998000000.0,
+            "net_income": 12613000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 19037000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 19886000000.0,
+            "capex": 849000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.33399417523421876,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 19037000000.0,
+            "revenue": 56998000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.50931578530088,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 19037000000.0,
+            "net_income": 12613000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 1.3845220224216679,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 43348000000.0,
+            "current_liabilities": 31309000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.18918675174170857,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 6658000000.0,
+            "short_term_debt": 1733000000.0,
+            "stockholders_equity": 44353000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.28437760692625075,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 12613000000.0,
+            "stockholders_equity": 44353000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.12383654714684052,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 12613000000.0,
+            "total_assets": 101852000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.01489525948278887,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 849000000.0,
+            "revenue": 56998000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.49964322524379606,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 6302000000.0,
+            "net_income": 12613000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.5327868852459017,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 6302000000.0,
+            "buybacks": 4293000000.0,
+            "operating_cash_flow": 19886000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.10553368116841554,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 56998000000.0,
+            "prior_revenue": 51557000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.06781239417541483,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 12613000000.0,
+            "prior_net_income": 11812000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.08865248226950355,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 3.07,
+            "prior_eps_diluted": 2.82
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "facts": {
+        "BUYBACKS": 7689000000.0,
+        "CAPEX": 477000000.0,
+        "CASH_AND_EQUIVALENTS": 7079000000.0,
+        "COST_OF_REVENUE": 19309000000.0,
+        "CURRENT_ASSETS": 36717000000.0,
+        "CURRENT_LIABILITIES": 25640000000.0,
+        "DEPRECIATION_AMORTIZATION": 800000000.0,
+        "DIVIDENDS_PAID": 6224000000.0,
+        "EPS_DILUTED": 2.82,
+        "LONG_TERM_DEBT": 8416000000.0,
+        "NET_INCOME": 11812000000.0,
+        "OPERATING_CASH_FLOW": 13226000000.0,
+        "OPERATING_INCOME": 13969000000.0,
+        "REVENUE": 51557000000.0,
+        "SHARES_DILUTED": 4192000000.0,
+        "SHORT_TERM_DEBT": 1099000000.0,
+        "STOCKHOLDERS_EQUITY": 39773000000.0,
+        "TOTAL_ASSETS": 94002000000.0,
+        "TOTAL_LIABILITIES": 54229000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6254824757064996,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 51557000000.0,
+            "cost_of_revenue": 19309000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.2709428399635355,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 51557000000.0,
+            "operating_income": 13969000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.22910565005721822,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 51557000000.0,
+            "net_income": 11812000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 12749000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 13226000000.0,
+            "capex": 477000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.24727970983571582,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 12749000000.0,
+            "revenue": 51557000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.0793261090416526,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 12749000000.0,
+            "net_income": 11812000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 1.4320202808112326,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 36717000000.0,
+            "current_liabilities": 25640000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.23923264526186105,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 8416000000.0,
+            "short_term_debt": 1099000000.0,
+            "stockholders_equity": 39773000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.29698539210016844,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 11812000000.0,
+            "stockholders_equity": 39773000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.12565690091700177,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 11812000000.0,
+            "total_assets": 94002000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.009251895959811471,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 477000000.0,
+            "revenue": 51557000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.5269217744666441,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 6224000000.0,
+            "net_income": 11812000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 1.0519431422954786,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 6224000000.0,
+            "buybacks": 7689000000.0,
+            "operating_cash_flow": 13226000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.03490706170460476,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 51557000000.0,
+            "prior_revenue": 49818000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.11528656406382778,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 11812000000.0,
+            "prior_net_income": 10591000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.12799999999999995,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.82,
+            "prior_eps_diluted": 2.5
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "facts": {
+        "BUYBACKS": 2877000000.0,
+        "CAPEX": 692000000.0,
+        "CASH_AND_EQUIVALENTS": 9175000000.0,
+        "COST_OF_REVENUE": 17924000000.0,
+        "CURRENT_ASSETS": 39112000000.0,
+        "CURRENT_LIABILITIES": 26257000000.0,
+        "DEPRECIATION_AMORTIZATION": 800000000.0,
+        "DIVIDENDS_PAID": 6163000000.0,
+        "EPS_DILUTED": 2.5,
+        "LONG_TERM_DEBT": 9018000000.0,
+        "NET_INCOME": 10591000000.0,
+        "OPERATING_CASH_FLOW": 15454000000.0,
+        "OPERATING_INCOME": 12833000000.0,
+        "REVENUE": 49818000000.0,
+        "SHARES_DILUTED": 4236000000.0,
+        "SHORT_TERM_DEBT": 2508000000.0,
+        "STOCKHOLDERS_EQUITY": 41275000000.0,
+        "TOTAL_ASSETS": 97497000000.0,
+        "TOTAL_LIABILITIES": 56222000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6402103657312618,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 49818000000.0,
+            "cost_of_revenue": 17924000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.25759765546589586,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 49818000000.0,
+            "operating_income": 12833000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.21259384158336345,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 49818000000.0,
+            "net_income": 10591000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 14762000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 15454000000.0,
+            "capex": 692000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.29631859970291863,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 14762000000.0,
+            "revenue": 49818000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.3938249457086205,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 14762000000.0,
+            "net_income": 10591000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 1.4895837300529382,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 39112000000.0,
+            "current_liabilities": 26257000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.2792489400363416,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 9018000000.0,
+            "short_term_debt": 2508000000.0,
+            "stockholders_equity": 41275000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.2565960024227741,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 10591000000.0,
+            "stockholders_equity": 41275000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.1086289834559012,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 10591000000.0,
+            "total_assets": 97497000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.013890561644385563,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 692000000.0,
+            "revenue": 49818000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.5819091681616467,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 6163000000.0,
+            "net_income": 10591000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.5849618221819594,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 6163000000.0,
+            "buybacks": 2877000000.0,
+            "operating_cash_flow": 15454000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.010486602705827469,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 49818000000.0,
+            "prior_revenue": 49301000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.05555555555555555,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 10591000000.0,
+            "prior_net_income": 11214000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.05303030303030307,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.5,
+            "prior_eps_diluted": 2.64
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2020,
+      "facts": {
+        "BUYBACKS": 2659000000.0,
+        "CAPEX": 770000000.0,
+        "CASH_AND_EQUIVALENTS": 11809000000.0,
+        "COST_OF_REVENUE": 17618000000.0,
+        "CURRENT_ASSETS": 43573000000.0,
+        "CURRENT_LIABILITIES": 25331000000.0,
+        "DEPRECIATION_AMORTIZATION": 900000000.0,
+        "DIVIDENDS_PAID": 6016000000.0,
+        "EPS_DILUTED": 2.64,
+        "LONG_TERM_DEBT": 11578000000.0,
+        "NET_INCOME": 11214000000.0,
+        "OPERATING_CASH_FLOW": 15426000000.0,
+        "OPERATING_INCOME": 13620000000.0,
+        "REVENUE": 49301000000.0,
+        "SHARES_DILUTED": 4254000000.0,
+        "SHORT_TERM_DEBT": 3005000000.0,
+        "STOCKHOLDERS_EQUITY": 37920000000.0,
+        "TOTAL_ASSETS": 94853000000.0,
+        "TOTAL_LIABILITIES": 56933000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6426441654327498,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 49301000000.0,
+            "cost_of_revenue": 17618000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.27626214478408145,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 49301000000.0,
+            "operating_income": 13620000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.22745988925173932,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 49301000000.0,
+            "net_income": 11214000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 14656000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 15426000000.0,
+            "capex": 770000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.29727591732419223,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 14656000000.0,
+            "revenue": 49301000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.3069377563759585,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 14656000000.0,
+            "net_income": 11214000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 1.7201452765386285,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 43573000000.0,
+            "current_liabilities": 25331000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.3845727848101266,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 11578000000.0,
+            "short_term_debt": 3005000000.0,
+            "stockholders_equity": 37920000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.29572784810126584,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 11214000000.0,
+            "stockholders_equity": 37920000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.11822504296121367,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 11214000000.0,
+            "total_assets": 94853000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.015618344455487718,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 770000000.0,
+            "revenue": 49301000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.5364722668093455,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 6016000000.0,
+            "net_income": 11214000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.5623622455594451,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 6016000000.0,
+            "buybacks": 2659000000.0,
+            "operating_cash_flow": 15426000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": -0.0501502774352651,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 49301000000.0,
+            "prior_revenue": 51904000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.03502280354530591,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 11214000000.0,
+            "prior_net_income": 11621000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.011494252873563314,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.64,
+            "prior_eps_diluted": 2.61
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2019,
+      "facts": {
+        "BUYBACKS": 20717000000.0,
+        "CAPEX": 909000000.0,
+        "CASH_AND_EQUIVALENTS": 11750000000.0,
+        "COST_OF_REVENUE": 19238000000.0,
+        "CURRENT_ASSETS": 47755000000.0,
+        "CURRENT_LIABILITIES": 31712000000.0,
+        "DEPRECIATION_AMORTIZATION": 1000000000.0,
+        "DIVIDENDS_PAID": 5979000000.0,
+        "EPS_DILUTED": 2.61,
+        "LONG_TERM_DEBT": 14475000000.0,
+        "NET_INCOME": 11621000000.0,
+        "OPERATING_CASH_FLOW": 15831000000.0,
+        "OPERATING_INCOME": 14219000000.0,
+        "REVENUE": 51904000000.0,
+        "SHARES_DILUTED": 4453000000.0,
+        "SHORT_TERM_DEBT": 10191000000.0,
+        "STOCKHOLDERS_EQUITY": 33571000000.0,
+        "TOTAL_ASSETS": 97793000000.0,
+        "TOTAL_LIABILITIES": 64222000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6293541923551171,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 51904000000.0,
+            "cost_of_revenue": 19238000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.27394805795314425,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 51904000000.0,
+            "operating_income": 14219000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.22389411220715166,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 51904000000.0,
+            "net_income": 11621000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 14922000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 15831000000.0,
+            "capex": 909000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.2874922934648582,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 14922000000.0,
+            "revenue": 51904000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.2840547285087343,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 14922000000.0,
+            "net_income": 11621000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 1.5058968213925328,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 47755000000.0,
+            "current_liabilities": 31712000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.7347412945697179,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 14475000000.0,
+            "short_term_debt": 10191000000.0,
+            "stockholders_equity": 33571000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.3461618658961604,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 11621000000.0,
+            "stockholders_equity": 33571000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.11883263628276053,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 11621000000.0,
+            "total_assets": 97793000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.01751310110974106,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 909000000.0,
+            "revenue": 51904000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.5144996127699853,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 5979000000.0,
+            "net_income": 11621000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 1.6863116669825027,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 5979000000.0,
+            "buybacks": 20717000000.0,
+            "operating_cash_flow": 15831000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.05217920129738496,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 51904000000.0,
+            "prior_revenue": 49330000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 104.64545454545454,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 11621000000.0,
+            "prior_net_income": 110000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 129.5,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.61,
+            "prior_eps_diluted": 0.02
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2018,
+      "facts": {
+        "BUYBACKS": 17547000000.0,
+        "CAPEX": 834000000.0,
+        "CASH_AND_EQUIVALENTS": 8934000000.0,
+        "COST_OF_REVENUE": 18724000000.0,
+        "CURRENT_ASSETS": 61837000000.0,
+        "CURRENT_LIABILITIES": 27035000000.0,
+        "DEPRECIATION_AMORTIZATION": 1100000000.0,
+        "DIVIDENDS_PAID": 5968000000.0,
+        "EPS_DILUTED": 0.02,
+        "LONG_TERM_DEBT": 20331000000.0,
+        "NET_INCOME": 110000000.0,
+        "OPERATING_CASH_FLOW": 13666000000.0,
+        "OPERATING_INCOME": 12309000000.0,
+        "REVENUE": 49330000000.0,
+        "SHARES_DILUTED": 4881000000.0,
+        "SHORT_TERM_DEBT": 5238000000.0,
+        "STOCKHOLDERS_EQUITY": 43204000000.0,
+        "TOTAL_ASSETS": 108784000000.0,
+        "TOTAL_LIABILITIES": 65580000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6204338130954794,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 49330000000.0,
+            "cost_of_revenue": 18724000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.24952361646057167,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 49330000000.0,
+            "operating_income": 12309000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.0022298803973241437,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 49330000000.0,
+            "net_income": 110000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 12832000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 13666000000.0,
+            "capex": 834000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.2601256841678492,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 12832000000.0,
+            "revenue": 49330000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 116.65454545454546,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 12832000000.0,
+            "net_income": 110000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 2.287294248196782,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 61837000000.0,
+            "current_liabilities": 27035000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.5918202018331636,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 20331000000.0,
+            "short_term_debt": 5238000000.0,
+            "stockholders_equity": 43204000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.0025460605499490786,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 110000000.0,
+            "stockholders_equity": 43204000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.0010111781144285924,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 110000000.0,
+            "total_assets": 108784000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.016906547739712143,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 834000000.0,
+            "revenue": 49330000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 54.25454545454546,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 5968000000.0,
+            "net_income": 110000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 1.7206936923752378,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 5968000000.0,
+            "buybacks": 17547000000.0,
+            "operating_cash_flow": 13666000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.02760129153213207,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 49330000000.0,
+            "prior_revenue": 48005000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.9885523987927984,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 110000000.0,
+            "prior_net_income": 9609000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.9894736842105263,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 0.02,
+            "prior_eps_diluted": 1.9
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2017,
+      "facts": {
+        "BUYBACKS": 3685000000.0,
+        "CAPEX": 964000000.0,
+        "CASH_AND_EQUIVALENTS": 11708000000.0,
+        "COST_OF_REVENUE": 17781000000.0,
+        "CURRENT_ASSETS": 83703000000.0,
+        "CURRENT_LIABILITIES": 27583000000.0,
+        "DEPRECIATION_AMORTIZATION": 1100000000.0,
+        "DIVIDENDS_PAID": 5511000000.0,
+        "EPS_DILUTED": 1.9,
+        "LONG_TERM_DEBT": 25725000000.0,
+        "NET_INCOME": 9609000000.0,
+        "OPERATING_CASH_FLOW": 13876000000.0,
+        "OPERATING_INCOME": 11973000000.0,
+        "REVENUE": 48005000000.0,
+        "SHARES_DILUTED": 5049000000.0,
+        "SHORT_TERM_DEBT": 7992000000.0,
+        "STOCKHOLDERS_EQUITY": 66137000000.0,
+        "TOTAL_ASSETS": 129818000000.0,
+        "TOTAL_LIABILITIES": 63681000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6296010832204979,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 48005000000.0,
+            "cost_of_revenue": 17781000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.24941151963337152,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 48005000000.0,
+            "operating_income": 11973000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.2001666493073638,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 48005000000.0,
+            "net_income": 9609000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 12912000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 13876000000.0,
+            "capex": 964000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.26897198208519946,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 12912000000.0,
+            "revenue": 48005000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.3437402435216985,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 12912000000.0,
+            "net_income": 9609000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.0345865206830296,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 83703000000.0,
+            "current_liabilities": 27583000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.5098054039342577,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 25725000000.0,
+            "short_term_debt": 7992000000.0,
+            "stockholders_equity": 66137000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.14528932367661068,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 9609000000.0,
+            "stockholders_equity": 66137000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.07401901123110817,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 9609000000.0,
+            "total_assets": 129818000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.02008124153733986,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 964000000.0,
+            "revenue": 48005000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.5735248204807992,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 5511000000.0,
+            "net_income": 9609000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.662727010665898,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 5511000000.0,
+            "buybacks": 3685000000.0,
+            "operating_cash_flow": 13876000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": -0.025219810343777287,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 48005000000.0,
+            "prior_revenue": 49247000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.10522395008846261,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 9609000000.0,
+            "prior_net_income": 10739000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.09952606635071089,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.9,
+            "prior_eps_diluted": 2.11
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2016,
+      "facts": {
+        "BUYBACKS": 3909000000.0,
+        "CAPEX": 1146000000.0,
+        "CASH_AND_EQUIVALENTS": 7631000000.0,
+        "COST_OF_REVENUE": 18287000000.0,
+        "CURRENT_ASSETS": 78719000000.0,
+        "CURRENT_LIABILITIES": 24911000000.0,
+        "DEPRECIATION_AMORTIZATION": 1000000000.0,
+        "DIVIDENDS_PAID": 4750000000.0,
+        "EPS_DILUTED": 2.11,
+        "LONG_TERM_DEBT": 24483000000.0,
+        "NET_INCOME": 10739000000.0,
+        "OPERATING_CASH_FLOW": 13570000000.0,
+        "OPERATING_INCOME": 12660000000.0,
+        "REVENUE": 49247000000.0,
+        "SHARES_DILUTED": 5088000000.0,
+        "SHORT_TERM_DEBT": 4160000000.0,
+        "STOCKHOLDERS_EQUITY": 63586000000.0,
+        "TOTAL_ASSETS": 121652000000.0,
+        "TOTAL_LIABILITIES": 58067000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6286677361057527,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 49247000000.0,
+            "cost_of_revenue": 18287000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.2570714967409182,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 49247000000.0,
+            "operating_income": 12660000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.2180640445103255,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 49247000000.0,
+            "net_income": 10739000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 12424000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 13570000000.0,
+            "capex": 1146000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.25227932665949193,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 12424000000.0,
+            "revenue": 49247000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.156904739733681,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 12424000000.0,
+            "net_income": 10739000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.1600096342981012,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 78719000000.0,
+            "current_liabilities": 24911000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.45046079325637717,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 24483000000.0,
+            "short_term_debt": 4160000000.0,
+            "stockholders_equity": 63586000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.16888937816500488,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 10739000000.0,
+            "stockholders_equity": 63586000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.08827639496268043,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 10739000000.0,
+            "total_assets": 121652000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.02327045302251914,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1146000000.0,
+            "revenue": 49247000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.44231306453114816,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 4750000000.0,
+            "net_income": 10739000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.6380987472365512,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 4750000000.0,
+            "buybacks": 3909000000.0,
+            "operating_cash_flow": 13570000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.0017493541628526678,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 49247000000.0,
+            "prior_revenue": 49161000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.1957465761051108,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 10739000000.0,
+            "prior_net_income": 8981000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.20571428571428566,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 2.11,
+            "prior_eps_diluted": 1.75
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2015,
+      "facts": {
+        "BUYBACKS": 4324000000.0,
+        "CAPEX": 1227000000.0,
+        "CASH_AND_EQUIVALENTS": 6877000000.0,
+        "COST_OF_REVENUE": 19480000000.0,
+        "CURRENT_ASSETS": 76283000000.0,
+        "CURRENT_LIABILITIES": 23623000000.0,
+        "DEPRECIATION_AMORTIZATION": 1100000000.0,
+        "DIVIDENDS_PAID": 4086000000.0,
+        "EPS_DILUTED": 1.75,
+        "LONG_TERM_DEBT": 21457000000.0,
+        "NET_INCOME": 8981000000.0,
+        "OPERATING_INCOME": 10770000000.0,
+        "REVENUE": 49161000000.0,
+        "SHARES_DILUTED": 5146000000.0,
+        "SHORT_TERM_DEBT": 3897000000.0,
+        "STOCKHOLDERS_EQUITY": 59698000000.0,
+        "TOTAL_ASSETS": 113481000000.0,
+        "TOTAL_LIABILITIES": 53774000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6037509407863957,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 49161000000.0,
+            "cost_of_revenue": 19480000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.2190760969060841,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 49161000000.0,
+            "operating_income": 10770000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.1826854620532536,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 49161000000.0,
+            "net_income": 8981000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": null,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": null,
+            "capex": 1227000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": null,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": null,
+            "revenue": 49161000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": null,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": null,
+            "net_income": 8981000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.229183422935275,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 76283000000.0,
+            "current_liabilities": 23623000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.4247043452041944,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 21457000000.0,
+            "short_term_debt": 3897000000.0,
+            "stockholders_equity": 59698000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.15044055077222018,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 8981000000.0,
+            "stockholders_equity": 59698000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.07914100157735657,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 8981000000.0,
+            "total_assets": 113481000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.024958808811863062,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1227000000.0,
+            "revenue": 49161000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.4549604721077831,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 4086000000.0,
+            "net_income": 8981000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": null,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 4086000000.0,
+            "buybacks": 4324000000.0,
+            "operating_cash_flow": null
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.04282805141911671,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 49161000000.0,
+            "prior_revenue": 47142000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.14363937348783903,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 8981000000.0,
+            "prior_net_income": 7853000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.174496644295302,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.75,
+            "prior_eps_diluted": 1.49
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2014,
+      "facts": {
+        "BUYBACKS": 9413000000.0,
+        "CAPEX": 1275000000.0,
+        "CASH_AND_EQUIVALENTS": 6726000000.0,
+        "COST_OF_REVENUE": 19373000000.0,
+        "CURRENT_ASSETS": 67114000000.0,
+        "CURRENT_LIABILITIES": 19809000000.0,
+        "DEPRECIATION_AMORTIZATION": 1200000000.0,
+        "DIVIDENDS_PAID": 3758000000.0,
+        "EPS_DILUTED": 1.49,
+        "LONG_TERM_DEBT": 20401000000.0,
+        "NET_INCOME": 7853000000.0,
+        "OPERATING_INCOME": 9345000000.0,
+        "REVENUE": 47142000000.0,
+        "SHARES_DILUTED": 5281000000.0,
+        "SHORT_TERM_DEBT": 508000000.0,
+        "STOCKHOLDERS_EQUITY": 56654000000.0,
+        "TOTAL_ASSETS": 105134000000.0,
+        "TOTAL_LIABILITIES": 48473000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.5890501039412838,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 47142000000.0,
+            "cost_of_revenue": 19373000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.198230876925035,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 47142000000.0,
+            "operating_income": 9345000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.1665818166390904,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 47142000000.0,
+            "net_income": 7853000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": null,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": null,
+            "capex": 1275000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": null,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": null,
+            "revenue": 47142000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": null,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": null,
+            "net_income": 7853000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.3880559341713363,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 67114000000.0,
+            "current_liabilities": 19809000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.3690648497899531,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 20401000000.0,
+            "short_term_debt": 508000000.0,
+            "stockholders_equity": 56654000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.13861333709888093,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 7853000000.0,
+            "stockholders_equity": 56654000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.07469515095021592,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 7853000000.0,
+            "total_assets": 105134000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.027045946289932545,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1275000000.0,
+            "revenue": 47142000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.4785432318859035,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 3758000000.0,
+            "net_income": 7853000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": null,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 3758000000.0,
+            "buybacks": 9413000000.0,
+            "operating_cash_flow": null
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": -0.030139691813936265,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 47142000000.0,
+            "prior_revenue": 48607000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.213362716618251,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 7853000000.0,
+            "prior_net_income": 9983000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.19892473118279574,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.49,
+            "prior_eps_diluted": 1.86
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2013,
+      "facts": {
+        "BUYBACKS": 2773000000.0,
+        "CAPEX": 1160000000.0,
+        "CASH_AND_EQUIVALENTS": 7925000000.0,
+        "COST_OF_REVENUE": 19167000000.0,
+        "CURRENT_ASSETS": 65521000000.0,
+        "CURRENT_LIABILITIES": 22192000000.0,
+        "DEPRECIATION_AMORTIZATION": 1200000000.0,
+        "DIVIDENDS_PAID": 3310000000.0,
+        "EPS_DILUTED": 1.86,
+        "LONG_TERM_DEBT": 12928000000.0,
+        "NET_INCOME": 9983000000.0,
+        "OPERATING_CASH_FLOW": 12894000000.0,
+        "OPERATING_INCOME": 11196000000.0,
+        "REVENUE": 48607000000.0,
+        "SHARES_DILUTED": 5380000000.0,
+        "SHORT_TERM_DEBT": 3283000000.0,
+        "STOCKHOLDERS_EQUITY": 59120000000.0,
+        "TOTAL_ASSETS": 101191000000.0,
+        "TOTAL_LIABILITIES": 42063000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.60567407986504,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 48607000000.0,
+            "cost_of_revenue": 19167000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.23033719423128357,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 48607000000.0,
+            "operating_income": 11196000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.2053819408727138,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 48607000000.0,
+            "net_income": 9983000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 11734000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 12894000000.0,
+            "capex": 1160000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.24140555887012158,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 11734000000.0,
+            "revenue": 48607000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.1753981769007313,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 11734000000.0,
+            "net_income": 9983000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 2.952460346070656,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 65521000000.0,
+            "current_liabilities": 22192000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.2742050067658999,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 12928000000.0,
+            "short_term_debt": 3283000000.0,
+            "stockholders_equity": 59120000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.1688599458728011,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 9983000000.0,
+            "stockholders_equity": 59120000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.09865501872696189,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 9983000000.0,
+            "total_assets": 101191000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.02386487542946489,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1160000000.0,
+            "revenue": 48607000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.33156365821897227,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 3310000000.0,
+            "net_income": 9983000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.4717698154180239,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 3310000000.0,
+            "buybacks": 2773000000.0,
+            "operating_cash_flow": 12894000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.055274527257332666,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 48607000000.0,
+            "prior_revenue": 46061000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.24151224972018406,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 9983000000.0,
+            "prior_net_income": 8041000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.2483221476510068,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.86,
+            "prior_eps_diluted": 1.49
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2012,
+      "facts": {
+        "BUYBACKS": 4760000000.0,
+        "CAPEX": 1126000000.0,
+        "CASH_AND_EQUIVALENTS": 9799000000.0,
+        "COST_OF_REVENUE": 17852000000.0,
+        "CURRENT_ASSETS": 61933000000.0,
+        "CURRENT_LIABILITIES": 17731000000.0,
+        "DEPRECIATION_AMORTIZATION": 1100000000.0,
+        "DIVIDENDS_PAID": 1501000000.0,
+        "EPS_DILUTED": 1.49,
+        "LONG_TERM_DEBT": 16297000000.0,
+        "NET_INCOME": 8041000000.0,
+        "OPERATING_CASH_FLOW": 11491000000.0,
+        "OPERATING_INCOME": 10065000000.0,
+        "REVENUE": 46061000000.0,
+        "SHARES_DILUTED": 5404000000.0,
+        "SHORT_TERM_DEBT": 31000000.0,
+        "STOCKHOLDERS_EQUITY": 51286000000.0,
+        "TOTAL_ASSETS": 91759000000.0,
+        "TOTAL_LIABILITIES": 40458000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.612426998979614,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 46061000000.0,
+            "cost_of_revenue": 17852000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.21851457849373657,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 46061000000.0,
+            "operating_income": 10065000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.17457284904800155,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 46061000000.0,
+            "net_income": 8041000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 10365000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 11491000000.0,
+            "capex": 1126000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.22502768068430995,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 10365000000.0,
+            "revenue": 46061000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.2890187787588607,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 10365000000.0,
+            "net_income": 8041000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.492922001015171,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 61933000000.0,
+            "current_liabilities": 17731000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.31837148539562454,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 16297000000.0,
+            "short_term_debt": 31000000.0,
+            "stockholders_equity": 51286000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.15678742736809265,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 8041000000.0,
+            "stockholders_equity": 51286000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.087631730947373,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 8041000000.0,
+            "total_assets": 91759000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.024445843555285382,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1126000000.0,
+            "revenue": 46061000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.1866683248352195,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 1501000000.0,
+            "net_income": 8041000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.5448611957183883,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 1501000000.0,
+            "buybacks": 4760000000.0,
+            "operating_cash_flow": 11491000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.06578277569531214,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 46061000000.0,
+            "prior_revenue": 43218000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.23898305084745763,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 8041000000.0,
+            "prior_net_income": 6490000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.2735042735042736,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.49,
+            "prior_eps_diluted": 1.17
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2011,
+      "facts": {
+        "BUYBACKS": 6896000000.0,
+        "CAPEX": 1174000000.0,
+        "CASH_AND_EQUIVALENTS": 7662000000.0,
+        "COST_OF_REVENUE": 16682000000.0,
+        "CURRENT_ASSETS": 57231000000.0,
+        "CURRENT_LIABILITIES": 17506000000.0,
+        "DIVIDENDS_PAID": 658000000.0,
+        "EPS_DILUTED": 1.17,
+        "LONG_TERM_DEBT": 16234000000.0,
+        "NET_INCOME": 6490000000.0,
+        "OPERATING_CASH_FLOW": 10079000000.0,
+        "OPERATING_INCOME": 7674000000.0,
+        "REVENUE": 43218000000.0,
+        "SHARES_DILUTED": 5563000000.0,
+        "SHORT_TERM_DEBT": 588000000.0,
+        "STOCKHOLDERS_EQUITY": 47226000000.0,
+        "TOTAL_ASSETS": 87095000000.0,
+        "TOTAL_LIABILITIES": 39836000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6140034244990513,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 43218000000.0,
+            "cost_of_revenue": 16682000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.17756490351242538,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 43218000000.0,
+            "operating_income": 7674000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.1501689111018557,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 43218000000.0,
+            "net_income": 6490000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 8905000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 10079000000.0,
+            "capex": 1174000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.20604840575686056,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 8905000000.0,
+            "revenue": 43218000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.3721109399075502,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 8905000000.0,
+            "net_income": 6490000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.2692219810350736,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 57231000000.0,
+            "current_liabilities": 17506000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.3562020920679287,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 16234000000.0,
+            "short_term_debt": 588000000.0,
+            "stockholders_equity": 47226000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.13742430017363316,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 6490000000.0,
+            "stockholders_equity": 47226000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.07451633274011138,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 6490000000.0,
+            "total_assets": 87095000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.027164607339534453,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1174000000.0,
+            "revenue": 43218000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": 0.10138674884437596,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": 658000000.0,
+            "net_income": 6490000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.7494791149915666,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": 658000000.0,
+            "buybacks": 6896000000.0,
+            "operating_cash_flow": 10079000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.07937062937062937,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 43218000000.0,
+            "prior_revenue": 40040000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.16441354448306938,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 6490000000.0,
+            "prior_net_income": 7767000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.12030075187969935,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.17,
+            "prior_eps_diluted": 1.33
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2010,
+      "facts": {
+        "BUYBACKS": 7864000000.0,
+        "CAPEX": 1008000000.0,
+        "CASH_AND_EQUIVALENTS": 4581000000.0,
+        "COST_OF_REVENUE": 14397000000.0,
+        "CURRENT_ASSETS": 51421000000.0,
+        "CURRENT_LIABILITIES": 19233000000.0,
+        "EPS_DILUTED": 1.33,
+        "LONG_TERM_DEBT": 12188000000.0,
+        "NET_INCOME": 7767000000.0,
+        "OPERATING_CASH_FLOW": 10173000000.0,
+        "OPERATING_INCOME": 9164000000.0,
+        "REVENUE": 40040000000.0,
+        "SHARES_DILUTED": 5848000000.0,
+        "SHORT_TERM_DEBT": 3096000000.0,
+        "STOCKHOLDERS_EQUITY": 44267000000.0,
+        "TOTAL_ASSETS": 81130000000.0,
+        "TOTAL_LIABILITIES": 36845000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6404345654345655,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 40040000000.0,
+            "cost_of_revenue": 14397000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.22887112887112887,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 40040000000.0,
+            "operating_income": 9164000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.193981018981019,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 40040000000.0,
+            "net_income": 7767000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 9165000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 10173000000.0,
+            "capex": 1008000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.2288961038961039,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 9165000000.0,
+            "revenue": 40040000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.1799922750096563,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 9165000000.0,
+            "net_income": 7767000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 2.6735818645037175,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 51421000000.0,
+            "current_liabilities": 19233000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.34526848442406305,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 12188000000.0,
+            "short_term_debt": 3096000000.0,
+            "stockholders_equity": 44267000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.17545801612939663,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 7767000000.0,
+            "stockholders_equity": 44267000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.09573523973869098,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 7767000000.0,
+            "total_assets": 81130000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.025174825174825177,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1008000000.0,
+            "revenue": 40040000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": null,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": null,
+            "net_income": 7767000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.7730266391428291,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": null,
+            "buybacks": 7864000000.0,
+            "operating_cash_flow": 10173000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": 0.10861920979040342,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 40040000000.0,
+            "prior_revenue": 36117000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": 0.2662210629279426,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 7767000000.0,
+            "prior_net_income": 6134000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": 0.26666666666666666,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.33,
+            "prior_eps_diluted": 1.05
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2009,
+      "facts": {
+        "BUYBACKS": 3611000000.0,
+        "CAPEX": 1005000000.0,
+        "CASH_AND_EQUIVALENTS": 5718000000.0,
+        "COST_OF_REVENUE": 13023000000.0,
+        "CURRENT_ASSETS": 44177000000.0,
+        "CURRENT_LIABILITIES": 13655000000.0,
+        "EPS_DILUTED": 1.05,
+        "LONG_TERM_DEBT": 10295000000.0,
+        "NET_INCOME": 6134000000.0,
+        "OPERATING_CASH_FLOW": 9897000000.0,
+        "OPERATING_INCOME": 7322000000.0,
+        "REVENUE": 36117000000.0,
+        "SHARES_DILUTED": 5857000000.0,
+        "SHORT_TERM_DEBT": 0.0,
+        "STOCKHOLDERS_EQUITY": 38647000000.0,
+        "TOTAL_ASSETS": 68128000000.0,
+        "TOTAL_LIABILITIES": 29451000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6394218788935958,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 36117000000.0,
+            "cost_of_revenue": 13023000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.20273001633579754,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 36117000000.0,
+            "operating_income": 7322000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.16983691890245592,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 36117000000.0,
+            "net_income": 6134000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 8892000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 9897000000.0,
+            "capex": 1005000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.24619985048592075,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 8892000000.0,
+            "revenue": 36117000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.4496250407564395,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 8892000000.0,
+            "net_income": 6134000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": 3.2352251922372757,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": 44177000000.0,
+            "current_liabilities": 13655000000.0
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": 0.2663854891712164,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": 10295000000.0,
+            "short_term_debt": 0.0,
+            "stockholders_equity": 38647000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.15871865862809534,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 6134000000.0,
+            "stockholders_equity": 38647000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": 0.09003640206669798,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 6134000000.0,
+            "total_assets": 68128000000.0
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.027826231414569316,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1005000000.0,
+            "revenue": 36117000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": null,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": null,
+            "net_income": 6134000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.36485803778922904,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": null,
+            "buybacks": 3611000000.0,
+            "operating_cash_flow": 9897000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": -0.08657056145675265,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 36117000000.0,
+            "prior_revenue": 39540000000.0
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": -0.23820168902136116,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 6134000000.0,
+            "prior_net_income": 8052000000.0
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": -0.1984732824427481,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.05,
+            "prior_eps_diluted": 1.31
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2008,
+      "facts": {
+        "BUYBACKS": 10441000000.0,
+        "CAPEX": 1268000000.0,
+        "CASH_AND_EQUIVALENTS": 5191000000.0,
+        "COST_OF_REVENUE": 14194000000.0,
+        "EPS_DILUTED": 1.31,
+        "NET_INCOME": 8052000000.0,
+        "OPERATING_CASH_FLOW": 12089000000.0,
+        "OPERATING_INCOME": 9442000000.0,
+        "REVENUE": 39540000000.0,
+        "SHARES_DILUTED": 6163000000.0,
+        "STOCKHOLDERS_EQUITY": 34402000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": 0.6410217501264542,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": 39540000000.0,
+            "cost_of_revenue": 14194000000.0
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": 0.23879615579160343,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": 39540000000.0,
+            "operating_income": 9442000000.0
+          }
+        },
+        "NET_MARGIN": {
+          "value": 0.20364188163884675,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": 39540000000.0,
+            "net_income": 8052000000.0
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": 10821000000.0,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": 12089000000.0,
+            "capex": 1268000000.0
+          }
+        },
+        "FCF_MARGIN": {
+          "value": 0.2736722306525038,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": 10821000000.0,
+            "revenue": 39540000000.0
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": 1.3438897168405366,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": 10821000000.0,
+            "net_income": 8052000000.0
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": null,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": null,
+            "current_liabilities": null
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": null,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": null,
+            "short_term_debt": null,
+            "stockholders_equity": 34402000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": 0.234056159525609,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": 8052000000.0,
+            "stockholders_equity": 34402000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": null,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": 8052000000.0,
+            "total_assets": null
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": 0.03206879109762266,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": 1268000000.0,
+            "revenue": 39540000000.0
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": null,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": null,
+            "net_income": 8052000000.0
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": 0.863677723550335,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": null,
+            "buybacks": 10441000000.0,
+            "operating_cash_flow": 12089000000.0
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": null,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": 39540000000.0,
+            "prior_revenue": null
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": null,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": 8052000000.0,
+            "prior_net_income": null
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": null,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": 1.31,
+            "prior_eps_diluted": null
+          }
+        }
+      }
+    },
+    {
+      "fiscal_year": 2007,
+      "facts": {
+        "CASH_AND_EQUIVALENTS": 3728000000.0,
+        "STOCKHOLDERS_EQUITY": 31941000000.0
+      },
+      "metrics": {
+        "GROSS_MARGIN": {
+          "value": null,
+          "formula": "(revenue - cost_of_revenue) / revenue",
+          "inputs": {
+            "revenue": null,
+            "cost_of_revenue": null
+          }
+        },
+        "OPERATING_MARGIN": {
+          "value": null,
+          "formula": "operating_income / revenue",
+          "inputs": {
+            "revenue": null,
+            "operating_income": null
+          }
+        },
+        "NET_MARGIN": {
+          "value": null,
+          "formula": "net_income / revenue",
+          "inputs": {
+            "revenue": null,
+            "net_income": null
+          }
+        },
+        "FREE_CASH_FLOW": {
+          "value": null,
+          "formula": "operating_cash_flow - capex",
+          "inputs": {
+            "operating_cash_flow": null,
+            "capex": null
+          }
+        },
+        "FCF_MARGIN": {
+          "value": null,
+          "formula": "free_cash_flow / revenue",
+          "inputs": {
+            "free_cash_flow": null,
+            "revenue": null
+          }
+        },
+        "FCF_CONVERSION": {
+          "value": null,
+          "formula": "free_cash_flow / net_income",
+          "inputs": {
+            "free_cash_flow": null,
+            "net_income": null
+          }
+        },
+        "CURRENT_RATIO": {
+          "value": null,
+          "formula": "current_assets / current_liabilities",
+          "inputs": {
+            "current_assets": null,
+            "current_liabilities": null
+          }
+        },
+        "DEBT_TO_EQUITY": {
+          "value": null,
+          "formula": "(long_term_debt + short_term_debt) / stockholders_equity",
+          "inputs": {
+            "long_term_debt": null,
+            "short_term_debt": null,
+            "stockholders_equity": 31941000000.0
+          }
+        },
+        "RETURN_ON_EQUITY": {
+          "value": null,
+          "formula": "net_income / stockholders_equity",
+          "inputs": {
+            "net_income": null,
+            "stockholders_equity": 31941000000.0
+          }
+        },
+        "RETURN_ON_ASSETS": {
+          "value": null,
+          "formula": "net_income / total_assets",
+          "inputs": {
+            "net_income": null,
+            "total_assets": null
+          }
+        },
+        "CAPEX_INTENSITY": {
+          "value": null,
+          "formula": "capex / revenue",
+          "inputs": {
+            "capex": null,
+            "revenue": null
+          }
+        },
+        "DIVIDEND_PAYOUT_RATIO": {
+          "value": null,
+          "formula": "dividends_paid / net_income",
+          "inputs": {
+            "dividends_paid": null,
+            "net_income": null
+          }
+        },
+        "CAPITAL_RETURN_TO_OCF": {
+          "value": null,
+          "formula": "(dividends_paid + buybacks) / operating_cash_flow",
+          "inputs": {
+            "dividends_paid": null,
+            "buybacks": null,
+            "operating_cash_flow": null
+          }
+        },
+        "REVENUE_GROWTH_YOY": {
+          "value": null,
+          "formula": "(revenue - prior_revenue) / prior_revenue",
+          "inputs": {
+            "revenue": null,
+            "prior_revenue": null
+          }
+        },
+        "NET_INCOME_GROWTH_YOY": {
+          "value": null,
+          "formula": "(net_income - prior_net_income) / abs(prior_net_income)",
+          "inputs": {
+            "net_income": null,
+            "prior_net_income": null
+          }
+        },
+        "EPS_GROWTH_YOY": {
+          "value": null,
+          "formula": "(eps_diluted - prior_eps_diluted) / abs(prior_eps_diluted)",
+          "inputs": {
+            "eps_diluted": null,
+            "prior_eps_diluted": null
+          }
+        }
+      }
+    }
+  ],
+  "valuation": {
+    "available": true,
+    "fcf_basis": "TTM",
+    "reverse_dcf": {
+      "implied_growth": 0.2581549882888794,
+      "formula": "solve g: sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue",
+      "inputs": {
+        "price": 113.47,
+        "shares_diluted": 3998000000.0,
+        "market_cap": 453653060000.0,
+        "long_term_debt": 22861000000.0,
+        "short_term_debt": 5232000000.0,
+        "cash": 8346000000.0,
+        "net_debt": 19747000000.0,
+        "enterprise_value": 473400060000.0,
+        "fcf_0": 11788000000,
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "years": 5
+      },
+      "falsifier": "If 5-year FCF growth of this magnitude is not plausible for this business (check against its own growth history and its sector's), the current price is pricing in more (or less) growth than is credible."
+    },
+    "dcf_scenarios": {
+      "bear": {
+        "fair_value_per_share": 30.93797133997246,
+        "formula": "(sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years - NetDebt) / SharesDiluted",
+        "inputs": {
+          "fcf_0": 11788000000,
+          "growth_rate": -0.03371465333643285,
+          "wacc": 0.09,
+          "terminal_growth": 0.025,
+          "years": 5,
+          "net_debt": 19747000000.0,
+          "shares_diluted": 3998000000.0
+        }
+      },
+      "base": {
+        "fair_value_per_share": 39.82927983892412,
+        "formula": "(sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years - NetDebt) / SharesDiluted",
+        "inputs": {
+          "fcf_0": 11788000000,
+          "growth_rate": 0.01628534666356715,
+          "wacc": 0.09,
+          "terminal_growth": 0.025,
+          "years": 5,
+          "net_debt": 19747000000.0,
+          "shares_diluted": 3998000000.0
+        }
+      },
+      "bull": {
+        "fair_value_per_share": 50.52102592104539,
+        "formula": "(sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years - NetDebt) / SharesDiluted",
+        "inputs": {
+          "fcf_0": 11788000000,
+          "growth_rate": 0.06628534666356715,
+          "wacc": 0.09,
+          "terminal_growth": 0.025,
+          "years": 5,
+          "net_debt": 19747000000.0,
+          "shares_diluted": 3998000000.0
+        }
+      }
+    },
+    "sensitivity_grid": {
+      "0.07|0.015": 49.785162820522146,
+      "0.07|0.02": 54.218980756072284,
+      "0.07|0.025": 59.63809156618909,
+      "0.07|0.03": 66.41198007883511,
+      "0.08|0.015": 41.36143675113671,
+      "0.08|0.02": 44.37365219910711,
+      "0.08|0.025": 47.93354318307214,
+      "0.08|0.03": 52.20541236383017,
+      "0.09|0.015": 35.18418009200386,
+      "0.09|0.02": 37.340833545931126,
+      "0.09|0.025": 39.82927983892412,
+      "0.09|0.03": 42.732467180749296,
+      "0.1|0.015": 30.46051540697543,
+      "0.1|0.02": 32.065851636641746,
+      "0.1|0.025": 33.885232696930224,
+      "0.1|0.03": 35.96452533725992,
+      "0.11|0.015": 26.731408688847942,
+      "0.11|0.02": 27.962776029092407,
+      "0.11|0.025": 29.339010115247987,
+      "0.11|0.03": 30.887273462173013
+    },
+    "comps": {
+      "ev_to_sales": {
+        "value": 8.355986514632683,
+        "formula": "enterprise_value / revenue",
+        "inputs": {
+          "enterprise_value": 473400060000.0,
+          "revenue": 56654000000.0
+        }
+      },
+      "ev_to_ebitda": {
+        "value": 37.99358426966292,
+        "formula": "enterprise_value / (operating_income + depreciation_amortization)",
+        "inputs": {
+          "enterprise_value": 473400060000.0,
+          "operating_income": 11760000000.0,
+          "depreciation_amortization": 700000000.0,
+          "ebitda": 12460000000.0
+        }
+      },
+      "price_to_fcf": {
+        "value": 38.484311163895484,
+        "formula": "price / (fcf / shares_diluted)",
+        "inputs": {
+          "price": 113.47,
+          "fcf": 11788000000,
+          "shares_diluted": 3998000000.0,
+          "fcf_per_share": 2.9484742371185595
+        }
+      },
+      "price_to_earnings": {
+        "value": 44.498039215686276,
+        "formula": "price / eps_diluted",
+        "inputs": {
+          "price": 113.47,
+          "eps_diluted": 2.55
+        }
+      }
+    }
+  },
+  "price_history": [
+    {
+      "date": "2023-09-15",
+      "close": 51.7631063879
+    },
+    {
+      "date": "2023-09-18",
+      "close": 51.8277640868
+    },
+    {
+      "date": "2023-09-19",
+      "close": 51.5783701053
+    },
+    {
+      "date": "2023-09-20",
+      "close": 51.2643184248
+    },
+    {
+      "date": "2023-09-21",
+      "close": 49.2691665726
+    },
+    {
+      "date": "2023-09-22",
+      "close": 49.4816132976
+    },
+    {
+      "date": "2023-09-25",
+      "close": 49.3984819705
+    },
+    {
+      "date": "2023-09-26",
+      "close": 48.6872472824
+    },
+    {
+      "date": "2023-09-27",
+      "close": 49.1398511748
+    },
+    {
+      "date": "2023-09-28",
+      "close": 49.7679545357
+    },
+    {
+      "date": "2023-09-29",
+      "close": 49.6571127661
+    },
+    {
+      "date": "2023-10-02",
+      "close": 50.2390320563
+    },
+    {
+      "date": "2023-10-03",
+      "close": 49.9157435618
+    },
+    {
+      "date": "2023-10-04",
+      "close": 49.7296643686
+    },
+    {
+      "date": "2023-10-05",
+      "close": 49.3761139016
+    },
+    {
+      "date": "2023-10-06",
+      "close": 49.7296643686
+    },
+    {
+      "date": "2023-10-09",
+      "close": 50.1669504725
+    },
+    {
+      "date": "2023-10-10",
+      "close": 50.1204306742
+    },
+    {
+      "date": "2023-10-11",
+      "close": 49.9250475214
+    },
+    {
+      "date": "2023-10-12",
+      "close": 50.1018227549
+    },
+    {
+      "date": "2023-10-13",
+      "close": 50.0273910777
+    },
+    {
+      "date": "2023-10-16",
+      "close": 50.3902455043
+    },
+    {
+      "date": "2023-10-17",
+      "close": 50.1855583918
+    },
+    {
+      "date": "2023-10-18",
+      "close": 50.0273910777
+    },
+    {
+      "date": "2023-10-19",
+      "close": 49.6087128931
+    },
+    {
+      "date": "2023-10-20",
+      "close": 49.2458584664
+    },
+    {
+      "date": "2023-10-23",
+      "close": 48.5666694115
+    },
+    {
+      "date": "2023-10-24",
+      "close": 49.3202901437
+    },
+    {
+      "date": "2023-10-25",
+      "close": 48.7527486046
+    },
+    {
+      "date": "2023-10-26",
+      "close": 47.7944407599
+    },
+    {
+      "date": "2023-10-27",
+      "close": 47.9712159934
+    },
+    {
+      "date": "2023-10-30",
+      "close": 47.980519953
+    },
+    {
+      "date": "2023-10-31",
+      "close": 48.5015416938
+    },
+    {
+      "date": "2023-11-01",
+      "close": 48.5573654518
+    },
+    {
+      "date": "2023-11-02",
+      "close": 49.0783871926
+    },
+    {
+      "date": "2023-11-03",
+      "close": 49.3202901437
+    },
+    {
+      "date": "2023-11-06",
+      "close": 49.5808010141
+    },
+    {
+      "date": "2023-11-07",
+      "close": 49.4319376596
+    },
+    {
+      "date": "2023-11-08",
+      "close": 49.310986184
+    },
+    {
+      "date": "2023-11-09",
+      "close": 48.3805902183
+    },
+    {
+      "date": "2023-11-10",
+      "close": 48.9295238381
+    },
+    {
+      "date": "2023-11-13",
+      "close": 48.5945812904
+    },
+    {
+      "date": "2023-11-14",
+      "close": 49.4691534982
+    },
+    {
+      "date": "2023-11-15",
+      "close": 49.5714970544
+    },
+    {
+      "date": "2023-11-16",
+      "close": 44.696222194
+    },
+    {
+      "date": "2023-11-17",
+      "close": 44.4310593438
+    },
+    {
+      "date": "2023-11-20",
+      "close": 44.9102132661
+    },
+    {
+      "date": "2023-11-21",
+      "close": 44.4729271622
+    },
+    {
+      "date": "2023-11-22",
+      "close": 44.7334380326
+    },
+    {
+      "date": "2023-11-24",
+      "close": 44.993948903
+    },
+    {
+      "date": "2023-11-27",
+      "close": 44.5938786378
+    },
+    {
+      "date": "2023-11-28",
+      "close": 44.5194469605
+    },
+    {
+      "date": "2023-11-29",
+      "close": 44.7055261536
+    },
+    {
+      "date": "2023-11-30",
+      "close": 45.0125568223
+    },
+    {
+      "date": "2023-12-01",
+      "close": 45.0962924593
+    },
+    {
+      "date": "2023-12-04",
+      "close": 44.7055261536
+    },
+    {
+      "date": "2023-12-05",
+      "close": 44.5938786378
+    },
+    {
+      "date": "2023-12-06",
+      "close": 44.3798875656
+    },
+    {
+      "date": "2023-12-07",
+      "close": 44.9009093064
+    },
+    {
+      "date": "2023-12-08",
+      "close": 45.0125568223
+    },
+    {
+      "date": "2023-12-11",
+      "close": 45.9522567477
+    },
+    {
+      "date": "2023-12-12",
+      "close": 45.8964329898
+    },
+    {
+      "date": "2023-12-13",
+      "close": 46.2313755375
+    },
+    {
+      "date": "2023-12-14",
+      "close": 45.998776546
+    },
+    {
+      "date": "2023-12-15",
+      "close": 46.3988468113
+    },
+    {
+      "date": "2023-12-18",
+      "close": 46.7430933186
+    },
+    {
+      "date": "2023-12-19",
+      "close": 46.6872695607
+    },
+    {
+      "date": "2023-12-20",
+      "close": 46.3337190937
+    },
+    {
+      "date": "2023-12-21",
+      "close": 46.2406794971
+    },
+    {
+      "date": "2023-12-22",
+      "close": 46.6035339237
+    },
+    {
+      "date": "2023-12-26",
+      "close": 46.7803091572
+    },
+    {
+      "date": "2023-12-27",
+      "close": 46.9291725118
+    },
+    {
+      "date": "2023-12-28",
+      "close": 46.9663883504
+    },
+    {
+      "date": "2023-12-29",
+      "close": 47.003604189
+    },
+    {
+      "date": "2024-01-02",
+      "close": 46.9943002294
+    },
+    {
+      "date": "2024-01-03",
+      "close": 47.357154656
+    },
+    {
+      "date": "2024-01-04",
+      "close": 46.9539953509
+    },
+    {
+      "date": "2024-01-05",
+      "close": 46.9633711487
+    },
+    {
+      "date": "2024-01-08",
+      "close": 47.310275667
+    },
+    {
+      "date": "2024-01-09",
+      "close": 46.7946067884
+    },
+    {
+      "date": "2024-01-10",
+      "close": 47.1040081156
+    },
+    {
+      "date": "2024-01-11",
+      "close": 47.2915240714
+    },
+    {
+      "date": "2024-01-12",
+      "close": 47.1977660935
+    },
+    {
+      "date": "2024-01-16",
+      "close": 47.4321610383
+    },
+    {
+      "date": "2024-01-17",
+      "close": 47.1602629023
+    },
+    {
+      "date": "2024-01-18",
+      "close": 47.582173803
+    },
+    {
+      "date": "2024-01-19",
+      "close": 48.0697152883
+    },
+    {
+      "date": "2024-01-22",
+      "close": 48.3509892221
+    },
+    {
+      "date": "2024-01-23",
+      "close": 48.5291293802
+    },
+    {
+      "date": "2024-01-24",
+      "close": 48.1072184795
+    },
+    {
+      "date": "2024-01-25",
+      "close": 49.0635498544
+    },
+    {
+      "date": "2024-01-26",
+      "close": 48.8854096964
+    },
+    {
+      "date": "2024-01-29",
+      "close": 49.0260466633
+    },
+    {
+      "date": "2024-01-30",
+      "close": 48.9791676743
+    },
+    {
+      "date": "2024-01-31",
+      "close": 47.0477533288
+    },
+    {
+      "date": "2024-02-01",
+      "close": 47.0477533288
+    },
+    {
+      "date": "2024-02-02",
+      "close": 47.0477533288
+    },
+    {
+      "date": "2024-02-05",
+      "close": 46.4195748766
+    },
+    {
+      "date": "2024-02-06",
+      "close": 46.8602373729
+    },
+    {
+      "date": "2024-02-07",
+      "close": 46.6633456193
+    },
+    {
+      "date": "2024-02-08",
+      "close": 46.8321099795
+    },
+    {
+      "date": "2024-02-09",
+      "close": 47.0008743398
+    },
+    {
+      "date": "2024-02-12",
+      "close": 46.8696131707
+    },
+    {
+      "date": "2024-02-13",
+      "close": 46.5414602479
+    },
+    {
+      "date": "2024-02-14",
+      "close": 47.1415113067
+    },
+    {
+      "date": "2024-02-15",
+      "close": 45.9976639759
+    },
+    {
+      "date": "2024-02-16",
+      "close": 45.4163645127
+    },
+    {
+      "date": "2024-02-20",
+      "close": 45.266351748
+    },
+    {
+      "date": "2024-02-21",
+      "close": 45.4538677039
+    },
+    {
+      "date": "2024-02-22",
+      "close": 45.538249884
+    },
+    {
+      "date": "2024-02-23",
+      "close": 45.81014802
+    },
+    {
+      "date": "2024-02-26",
+      "close": 45.3788613215
+    },
+    {
+      "date": "2024-02-27",
+      "close": 45.2944791414
+    },
+    {
+      "date": "2024-02-28",
+      "close": 45.0600841965
+    },
+    {
+      "date": "2024-02-29",
+      "close": 45.3507339281
+    },
+    {
+      "date": "2024-03-01",
+      "close": 45.3788613215
+    },
+    {
+      "date": "2024-03-04",
+      "close": 46.0632945605
+    },
+    {
+      "date": "2024-03-05",
+      "close": 45.8945302002
+    },
+    {
+      "date": "2024-03-06",
+      "close": 46.1007977516
+    },
+    {
+      "date": "2024-03-07",
+      "close": 45.8476512112
+    },
+    {
+      "date": "2024-03-08",
+      "close": 46.4101990788
+    },
+    {
+      "date": "2024-03-11",
+      "close": 47.08525652
+    },
+    {
+      "date": "2024-03-12",
+      "close": 46.9446195531
+    },
+    {
+      "date": "2024-03-13",
+      "close": 46.9821227442
+    },
+    {
+      "date": "2024-03-14",
+      "close": 46.6820972148
+    },
+    {
+      "date": "2024-03-15",
+      "close": 45.8757786046
+    },
+    {
+      "date": "2024-03-18",
+      "close": 46.1945557296
+    },
+    {
+      "date": "2024-03-19",
+      "close": 46.0726703583
+    },
+    {
+      "date": "2024-03-20",
+      "close": 46.4570780678
+    },
+    {
+      "date": "2024-03-21",
+      "close": 46.766479395
+    },
+    {
+      "date": "2024-03-22",
+      "close": 46.6727214171
+    },
+    {
+      "date": "2024-03-25",
+      "close": 46.5789634391
+    },
+    {
+      "date": "2024-03-26",
+      "close": 46.4570780678
+    },
+    {
+      "date": "2024-03-27",
+      "close": 46.6633456193
+    },
+    {
+      "date": "2024-03-28",
+      "close": 46.7946067884
+    },
+    {
+      "date": "2024-04-01",
+      "close": 46.9164921597
+    },
+    {
+      "date": "2024-04-02",
+      "close": 46.2789379097
+    },
+    {
+      "date": "2024-04-03",
+      "close": 46.0726703583
+    },
+    {
+      "date": "2024-04-04",
+      "close": 45.4771475366
+    },
+    {
+      "date": "2024-04-05",
+      "close": 45.8930682375
+    },
+    {
+      "date": "2024-04-08",
+      "close": 45.6000331982
+    },
+    {
+      "date": "2024-04-09",
+      "close": 47.2731687447
+    },
+    {
+      "date": "2024-04-10",
+      "close": 46.5169492887
+    },
+    {
+      "date": "2024-04-11",
+      "close": 46.8194370711
+    },
+    {
+      "date": "2024-04-12",
+      "close": 45.8363517782
+    },
+    {
+      "date": "2024-04-15",
+      "close": 45.6000331982
+    },
+    {
+      "date": "2024-04-16",
+      "close": 45.2975454158
+    },
+    {
+      "date": "2024-04-17",
+      "close": 45.1746597542
+    },
+    {
+      "date": "2024-04-18",
+      "close": 45.4771475366
+    },
+    {
+      "date": "2024-04-19",
+      "close": 45.6756551438
+    },
+    {
+      "date": "2024-04-22",
+      "close": 45.5055057662
+    },
+    {
+      "date": "2024-04-23",
+      "close": 45.6756551438
+    },
+    {
+      "date": "2024-04-24",
+      "close": 45.7040133734
+    },
+    {
+      "date": "2024-04-25",
+      "close": 45.4676947934
+    },
+    {
+      "date": "2024-04-26",
+      "close": 45.2408289566
+    },
+    {
+      "date": "2024-04-29",
+      "close": 45.165207011
+    },
+    {
+      "date": "2024-04-30",
+      "close": 44.408987555
+    },
+    {
+      "date": "2024-05-01",
+      "close": 44.2766491502
+    },
+    {
+      "date": "2024-05-02",
+      "close": 44.2293854342
+    },
+    {
+      "date": "2024-05-03",
+      "close": 44.5413259598
+    },
+    {
+      "date": "2024-05-06",
+      "close": 44.5318732166
+    },
+    {
+      "date": "2024-05-07",
+      "close": 44.692569851
+    },
+    {
+      "date": "2024-05-08",
+      "close": 45.3731673614
+    },
+    {
+      "date": "2024-05-09",
+      "close": 45.1746597542
+    },
+    {
+      "date": "2024-05-10",
+      "close": 45.4298838206
+    },
+    {
+      "date": "2024-05-13",
+      "close": 46.0159538991
+    },
+    {
+      "date": "2024-05-14",
+      "close": 46.2711779655
+    },
+    {
+      "date": "2024-05-15",
+      "close": 46.9517754759
+    },
+    {
+      "date": "2024-05-16",
+      "close": 45.6945606302
+    },
+    {
+      "date": "2024-05-17",
+      "close": 45.5338639958
+    },
+    {
+      "date": "2024-05-20",
+      "close": 44.550778703
+    },
+    {
+      "date": "2024-05-21",
+      "close": 44.3711765822
+    },
+    {
+      "date": "2024-05-22",
+      "close": 44.834360999
+    },
+    {
+      "date": "2024-05-23",
+      "close": 44.0497833134
+    },
+    {
+      "date": "2024-05-24",
+      "close": 43.8796339358
+    },
+    {
+      "date": "2024-05-28",
+      "close": 43.747295531
+    },
+    {
+      "date": "2024-05-29",
+      "close": 43.558240667
+    },
+    {
+      "date": "2024-05-30",
+      "close": 43.5960516398
+    },
+    {
+      "date": "2024-05-31",
+      "close": 43.9552558814
+    },
+    {
+      "date": "2024-06-03",
+      "close": 44.0970470294
+    },
+    {
+      "date": "2024-06-04",
+      "close": 44.8249082558
+    },
+    {
+      "date": "2024-06-05",
+      "close": 43.5015242078
+    },
+    {
+      "date": "2024-06-06",
+      "close": 43.700031815
+    },
+    {
+      "date": "2024-06-07",
+      "close": 43.3313748302
+    },
+    {
+      "date": "2024-06-10",
+      "close": 43.3408275734
+    },
+    {
+      "date": "2024-06-11",
+      "close": 43.2652056278
+    },
+    {
+      "date": "2024-06-12",
+      "close": 43.1234144798
+    },
+    {
+      "date": "2024-06-13",
+      "close": 43.0288870478
+    },
+    {
+      "date": "2024-06-14",
+      "close": 43.180130939
+    },
+    {
+      "date": "2024-06-17",
+      "close": 43.1895836822
+    },
+    {
+      "date": "2024-06-18",
+      "close": 43.4542604918
+    },
+    {
+      "date": "2024-06-20",
+      "close": 44.1632162318
+    },
+    {
+      "date": "2024-06-21",
+      "close": 44.7020225942
+    },
+    {
+      "date": "2024-06-24",
+      "close": 44.692569851
+    },
+    {
+      "date": "2024-06-25",
+      "close": 44.787097283
+    },
+    {
+      "date": "2024-06-26",
+      "close": 44.2955546366
+    },
+    {
+      "date": "2024-06-27",
+      "close": 44.8532664854
+    },
+    {
+      "date": "2024-06-28",
+      "close": 44.9099829446
+    },
+    {
+      "date": "2024-07-01",
+      "close": 44.9194356878
+    },
+    {
+      "date": "2024-07-02",
+      "close": 44.692569851
+    },
+    {
+      "date": "2024-07-03",
+      "close": 44.5129677302
+    },
+    {
+      "date": "2024-07-05",
+      "close": 44.4751567574
+    },
+    {
+      "date": "2024-07-08",
+      "close": 43.9126628134
+    },
+    {
+      "date": "2024-07-09",
+      "close": 43.6647841262
+    },
+    {
+      "date": "2024-07-10",
+      "close": 44.1128725223
+    },
+    {
+      "date": "2024-07-11",
+      "close": 44.5800285097
+    },
+    {
+      "date": "2024-07-12",
+      "close": 45.1711238406
+    },
+    {
+      "date": "2024-07-15",
+      "close": 45.190191432
+    },
+    {
+      "date": "2024-07-16",
+      "close": 45.2092590233
+    },
+    {
+      "date": "2024-07-17",
+      "close": 46.257976546
+    },
+    {
+      "date": "2024-07-18",
+      "close": 45.8003543542
+    },
+    {
+      "date": "2024-07-19",
+      "close": 45.1139210667
+    },
+    {
+      "date": "2024-07-22",
+      "close": 44.6372312836
+    },
+    {
+      "date": "2024-07-23",
+      "close": 44.1986766832
+    },
+    {
+      "date": "2024-07-24",
+      "close": 44.6658326706
+    },
+    {
+      "date": "2024-07-25",
+      "close": 45.0376507014
+    },
+    {
+      "date": "2024-07-26",
+      "close": 45.6478136237
+    },
+    {
+      "date": "2024-07-29",
+      "close": 45.7526853759
+    },
+    {
+      "date": "2024-07-30",
+      "close": 45.8956923109
+    },
+    {
+      "date": "2024-07-31",
+      "close": 46.1912399763
+    },
+    {
+      "date": "2024-08-01",
+      "close": 45.1806576363
+    },
+    {
+      "date": "2024-08-02",
+      "close": 44.4846905531
+    },
+    {
+      "date": "2024-08-05",
+      "close": 42.6542017862
+    },
+    {
+      "date": "2024-08-06",
+      "close": 43.054621204
+    },
+    {
+      "date": "2024-08-07",
+      "close": 43.0164860213
+    },
+    {
+      "date": "2024-08-08",
+      "close": 43.6933855132
+    },
+    {
+      "date": "2024-08-09",
+      "close": 43.3501688694
+    },
+    {
+      "date": "2024-08-12",
+      "close": 42.7686073341
+    },
+    {
+      "date": "2024-08-13",
+      "close": 43.2548309128
+    },
+    {
+      "date": "2024-08-14",
+      "close": 43.3215674825
+    },
+    {
+      "date": "2024-08-15",
+      "close": 46.2675103416
+    },
+    {
+      "date": "2024-08-16",
+      "close": 47.1541533381
+    },
+    {
+      "date": "2024-08-19",
+      "close": 47.6499107124
+    },
+    {
+      "date": "2024-08-20",
+      "close": 47.8977893996
+    },
+    {
+      "date": "2024-08-21",
+      "close": 48.0979991085
+    },
+    {
+      "date": "2024-08-22",
+      "close": 47.8787218083
+    },
+    {
+      "date": "2024-08-23",
+      "close": 48.3744791827
+    },
+    {
+      "date": "2024-08-26",
+      "close": 48.422148161
+    },
+    {
+      "date": "2024-08-27",
+      "close": 48.3458777957
+    },
+    {
+      "date": "2024-08-28",
+      "close": 47.5259713688
+    },
+    {
+      "date": "2024-08-29",
+      "close": 48.0407963345
+    },
+    {
+      "date": "2024-08-30",
+      "close": 48.1838032694
+    },
+    {
+      "date": "2024-09-03",
+      "close": 47.7261810777
+    },
+    {
+      "date": "2024-09-04",
+      "close": 47.3829644339
+    },
+    {
+      "date": "2024-09-05",
+      "close": 46.8395380813
+    },
+    {
+      "date": "2024-09-06",
+      "close": 46.2389089546
+    },
+    {
+      "date": "2024-09-09",
+      "close": 46.4295848679
+    },
+    {
+      "date": "2024-09-10",
+      "close": 46.5153890288
+    },
+    {
+      "date": "2024-09-11",
+      "close": 46.82047049
+    },
+    {
+      "date": "2024-09-12",
+      "close": 47.297160273
+    },
+    {
+      "date": "2024-09-13",
+      "close": 47.4783023905
+    },
+    {
+      "date": "2024-09-16",
+      "close": 48.6509592568
+    },
+    {
+      "date": "2024-09-17",
+      "close": 48.2505398391
+    },
+    {
+      "date": "2024-09-18",
+      "close": 48.2124046564
+    },
+    {
+      "date": "2024-09-19",
+      "close": 49.0418448789
+    },
+    {
+      "date": "2024-09-20",
+      "close": 49.5471360489
+    },
+    {
+      "date": "2024-09-23",
+      "close": 49.7568795535
+    },
+    {
+      "date": "2024-09-24",
+      "close": 50.0714948103
+    },
+    {
+      "date": "2024-09-25",
+      "close": 50.1954341539
+    },
+    {
+      "date": "2024-09-26",
+      "close": 50.3861100671
+    },
+    {
+      "date": "2024-09-27",
+      "close": 50.5481845933
+    },
+    {
+      "date": "2024-09-30",
+      "close": 50.7388605065
+    },
+    {
+      "date": "2024-10-01",
+      "close": 50.2812383148
+    },
+    {
+      "date": "2024-10-02",
+      "close": 50.5481845933
+    },
+    {
+      "date": "2024-10-03",
+      "close": 50.3656654927
+    },
+    {
+      "date": "2024-10-04",
+      "close": 50.6730660832
+    },
+    {
+      "date": "2024-10-07",
+      "close": 50.4425156403
+    },
+    {
+      "date": "2024-10-08",
+      "close": 50.6538535463
+    },
+    {
+      "date": "2024-10-09",
+      "close": 51.4511738278
+    },
+    {
+      "date": "2024-10-10",
+      "close": 51.4319612909
+    },
+    {
+      "date": "2024-10-11",
+      "close": 52.1140063509
+    },
+    {
+      "date": "2024-10-14",
+      "close": 52.1332188878
+    },
+    {
+      "date": "2024-10-15",
+      "close": 51.9506997873
+    },
+    {
+      "date": "2024-10-16",
+      "close": 54.1601415312
+    },
+    {
+      "date": "2024-10-17",
+      "close": 54.1793540681
+    },
+    {
+      "date": "2024-10-18",
+      "close": 54.5251797323
+    },
+    {
+      "date": "2024-10-21",
+      "close": 54.3618731687
+    },
+    {
+      "date": "2024-10-22",
+      "close": 54.3714794371
+    },
+    {
+      "date": "2024-10-23",
+      "close": 54.0640788467
+    },
+    {
+      "date": "2024-10-24",
+      "close": 53.7566782562
+    },
+    {
+      "date": "2024-10-25",
+      "close": 53.5453403503
+    },
+    {
+      "date": "2024-10-28",
+      "close": 53.1034520015
+    },
+    {
+      "date": "2024-10-29",
+      "close": 53.4877027396
+    },
+    {
+      "date": "2024-10-30",
+      "close": 53.4012463235
+    },
+    {
+      "date": "2024-10-31",
+      "close": 52.6135323104
+    },
+    {
+      "date": "2024-11-01",
+      "close": 53.3147899074
+    },
+    {
+      "date": "2024-11-04",
+      "close": 53.6317967663
+    },
+    {
+      "date": "2024-11-05",
+      "close": 53.9488036252
+    },
+    {
+      "date": "2024-11-06",
+      "close": 55.5914755305
+    },
+    {
+      "date": "2024-11-07",
+      "close": 55.793207168
+    },
+    {
+      "date": "2024-11-08",
+      "close": 55.7739946311
+    },
+    {
+      "date": "2024-11-11",
+      "close": 56.3215519328
+    },
+    {
+      "date": "2024-11-12",
+      "close": 56.3984020804
+    },
+    {
+      "date": "2024-11-13",
+      "close": 56.8498966977
+    },
+    {
+      "date": "2024-11-14",
+      "close": 55.6395068728
+    },
+    {
+      "date": "2024-11-15",
+      "close": 55.197618524
+    },
+    {
+      "date": "2024-11-18",
+      "close": 55.0535244972
+    },
+    {
+      "date": "2024-11-19",
+      "close": 54.7653364436
+    },
+    {
+      "date": "2024-11-20",
+      "close": 55.2360435978
+    },
+    {
+      "date": "2024-11-21",
+      "close": 55.2936812085
+    },
+    {
+      "date": "2024-11-22",
+      "close": 56.2447017852
+    },
+    {
+      "date": "2024-11-25",
+      "close": 56.4272208858
+    },
+    {
+      "date": "2024-11-26",
+      "close": 57.2437537042
+    },
+    {
+      "date": "2024-11-27",
+      "close": 56.9555656506
+    },
+    {
+      "date": "2024-11-29",
+      "close": 56.878715503
+    },
+    {
+      "date": "2024-12-02",
+      "close": 57.090053409
+    },
+    {
+      "date": "2024-12-03",
+      "close": 57.1380847512
+    },
+    {
+      "date": "2024-12-04",
+      "close": 57.2725725096
+    },
+    {
+      "date": "2024-12-05",
+      "close": 57.6568232476
+    },
+    {
+      "date": "2024-12-06",
+      "close": 57.5319417578
+    },
+    {
+      "date": "2024-12-09",
+      "close": 56.6289525233
+    },
+    {
+      "date": "2024-12-10",
+      "close": 56.4080083489
+    },
+    {
+      "date": "2024-12-11",
+      "close": 56.283126859
+    },
+    {
+      "date": "2024-12-12",
+      "close": 56.5328898388
+    },
+    {
+      "date": "2024-12-13",
+      "close": 56.3119456644
+    },
+    {
+      "date": "2024-12-16",
+      "close": 56.0525764162
+    },
+    {
+      "date": "2024-12-17",
+      "close": 56.2158829799
+    },
+    {
+      "date": "2024-12-18",
+      "close": 55.2648624031
+    },
+    {
+      "date": "2024-12-19",
+      "close": 55.3609250876
+    },
+    {
+      "date": "2024-12-20",
+      "close": 56.2158829799
+    },
+    {
+      "date": "2024-12-23",
+      "close": 56.6577713286
+    },
+    {
+      "date": "2024-12-24",
+      "close": 57.4935166839
+    },
+    {
+      "date": "2024-12-26",
+      "close": 57.6183981738
+    },
+    {
+      "date": "2024-12-27",
+      "close": 57.2629662411
+    },
+    {
+      "date": "2024-12-30",
+      "close": 56.8595029661
+    },
+    {
+      "date": "2024-12-31",
+      "close": 56.8691092346
+    },
+    {
+      "date": "2025-01-02",
+      "close": 56.7730465501
+    },
+    {
+      "date": "2025-01-03",
+      "close": 56.9267468453
+    },
+    {
+      "date": "2025-01-06",
+      "close": 56.8397028899
+    },
+    {
+      "date": "2025-01-07",
+      "close": 56.9944476995
+    },
+    {
+      "date": "2025-01-08",
+      "close": 57.2555795658
+    },
+    {
+      "date": "2025-01-10",
+      "close": 56.8106882381
+    },
+    {
+      "date": "2025-01-13",
+      "close": 56.8300313393
+    },
+    {
+      "date": "2025-01-14",
+      "close": 57.3813097236
+    },
+    {
+      "date": "2025-01-15",
+      "close": 58.0099605128
+    },
+    {
+      "date": "2025-01-16",
+      "close": 57.8552157031
+    },
+    {
+      "date": "2025-01-17",
+      "close": 58.2517492778
+    },
+    {
+      "date": "2025-01-21",
+      "close": 59.025473326
+    },
+    {
+      "date": "2025-01-22",
+      "close": 59.6057663621
+    },
+    {
+      "date": "2025-01-23",
+      "close": 60.1860593983
+    },
+    {
+      "date": "2025-01-24",
+      "close": 60.1860593983
+    },
+    {
+      "date": "2025-01-27",
+      "close": 57.1395209585
+    },
+    {
+      "date": "2025-01-28",
+      "close": 57.4780252296
+    },
+    {
+      "date": "2025-01-29",
+      "close": 57.5940838369
+    },
+    {
+      "date": "2025-01-30",
+      "close": 58.4838664923
+    },
+    {
+      "date": "2025-01-31",
+      "close": 58.6095966501
+    },
+    {
+      "date": "2025-02-03",
+      "close": 59.0351448766
+    },
+    {
+      "date": "2025-02-04",
+      "close": 59.3252913947
+    },
+    {
+      "date": "2025-02-05",
+      "close": 60.5148921188
+    },
+    {
+      "date": "2025-02-06",
+      "close": 60.2247456007
+    },
+    {
+      "date": "2025-02-07",
+      "close": 60.2247456007
+    },
+    {
+      "date": "2025-02-10",
+      "close": 60.7470093332
+    },
+    {
+      "date": "2025-02-11",
+      "close": 60.3794904103
+    },
+    {
+      "date": "2025-02-12",
+      "close": 60.4762059163
+    },
+    {
+      "date": "2025-02-13",
+      "close": 61.7431790452
+    },
+    {
+      "date": "2025-02-14",
+      "close": 62.7393487573
+    },
+    {
+      "date": "2025-02-18",
+      "close": 62.4685453404
+    },
+    {
+      "date": "2025-02-19",
+      "close": 62.7103341055
+    },
+    {
+      "date": "2025-02-20",
+      "close": 62.5459177452
+    },
+    {
+      "date": "2025-02-21",
+      "close": 61.8785807537
+    },
+    {
+      "date": "2025-02-24",
+      "close": 61.1628860091
+    },
+    {
+      "date": "2025-02-25",
+      "close": 62.1590557211
+    },
+    {
+      "date": "2025-02-26",
+      "close": 61.9752962597
+    },
+    {
+      "date": "2025-02-27",
+      "close": 61.7141643934
+    },
+    {
+      "date": "2025-02-28",
+      "close": 62.0043109115
+    },
+    {
+      "date": "2025-03-03",
+      "close": 61.3950032236
+    },
+    {
+      "date": "2025-03-04",
+      "close": 61.1822291103
+    },
+    {
+      "date": "2025-03-05",
+      "close": 61.8592376525
+    },
+    {
+      "date": "2025-03-06",
+      "close": 61.3273023693
+    },
+    {
+      "date": "2025-03-07",
+      "close": 61.8398945513
+    },
+    {
+      "date": "2025-03-10",
+      "close": 60.021643038
+    },
+    {
+      "date": "2025-03-11",
+      "close": 58.6772975043
+    },
+    {
+      "date": "2025-03-12",
+      "close": 58.4741949417
+    },
+    {
+      "date": "2025-03-13",
+      "close": 57.7101424441
+    },
+    {
+      "date": "2025-03-14",
+      "close": 58.5128811441
+    },
+    {
+      "date": "2025-03-17",
+      "close": 58.8900716176
+    },
+    {
+      "date": "2025-03-18",
+      "close": 58.319450132
+    },
+    {
+      "date": "2025-03-19",
+      "close": 59.1125172814
+    },
+    {
+      "date": "2025-03-20",
+      "close": 58.6289397513
+    },
+    {
+      "date": "2025-03-21",
+      "close": 58.319450132
+    },
+    {
+      "date": "2025-03-24",
+      "close": 58.9674440224
+    },
+    {
+      "date": "2025-03-25",
+      "close": 58.9867871236
+    },
+    {
+      "date": "2025-03-26",
+      "close": 59.7701827224
+    },
+    {
+      "date": "2025-03-27",
+      "close": 59.3833206983
+    },
+    {
+      "date": "2025-03-28",
+      "close": 58.8610569658
+    },
+    {
+      "date": "2025-03-31",
+      "close": 59.683138767
+    },
+    {
+      "date": "2025-04-01",
+      "close": 59.7701827224
+    },
+    {
+      "date": "2025-04-02",
+      "close": 59.7895258236
+    },
+    {
+      "date": "2025-04-03",
+      "close": 55.8241900766
+    },
+    {
+      "date": "2025-04-04",
+      "close": 53.126004655
+    },
+    {
+      "date": "2025-04-07",
+      "close": 52.9993750143
+    },
+    {
+      "date": "2025-04-08",
+      "close": 51.8110045398
+    },
+    {
+      "date": "2025-04-09",
+      "close": 56.6229308874
+    },
+    {
+      "date": "2025-04-10",
+      "close": 55.1228566818
+    },
+    {
+      "date": "2025-04-11",
+      "close": 55.8436715598
+    },
+    {
+      "date": "2025-04-14",
+      "close": 55.9215974926
+    },
+    {
+      "date": "2025-04-15",
+      "close": 55.7170419191
+    },
+    {
+      "date": "2025-04-16",
+      "close": 54.3143751295
+    },
+    {
+      "date": "2025-04-17",
+      "close": 54.3143751295
+    },
+    {
+      "date": "2025-04-21",
+      "close": 52.9604120479
+    },
+    {
+      "date": "2025-04-22",
+      "close": 53.6130417347
+    },
+    {
+      "date": "2025-04-23",
+      "close": 54.1877454888
+    },
+    {
+      "date": "2025-04-24",
+      "close": 54.830634434
+    },
+    {
+      "date": "2025-04-25",
+      "close": 55.239745581
+    },
+    {
+      "date": "2025-04-28",
+      "close": 55.3663752217
+    },
+    {
+      "date": "2025-04-29",
+      "close": 55.8534123014
+    },
+    {
+      "date": "2025-04-30",
+      "close": 56.2333012236
+    },
+    {
+      "date": "2025-05-01",
+      "close": 56.6131901458
+    },
+    {
+      "date": "2025-05-02",
+      "close": 57.7918198787
+    },
+    {
+      "date": "2025-05-05",
+      "close": 57.7820791371
+    },
+    {
+      "date": "2025-05-06",
+      "close": 57.6846717211
+    },
+    {
+      "date": "2025-05-07",
+      "close": 58.0255976769
+    },
+    {
+      "date": "2025-05-08",
+      "close": 58.1619680592
+    },
+    {
+      "date": "2025-05-09",
+      "close": 58.2204125088
+    },
+    {
+      "date": "2025-05-12",
+      "close": 60.0711534117
+    },
+    {
+      "date": "2025-05-13",
+      "close": 60.1783015693
+    },
+    {
+      "date": "2025-05-14",
+      "close": 59.7010052311
+    },
+    {
+      "date": "2025-05-15",
+      "close": 62.5940054846
+    },
+    {
+      "date": "2025-05-16",
+      "close": 61.9705980226
+    },
+    {
+      "date": "2025-05-19",
+      "close": 62.2628202704
+    },
+    {
+      "date": "2025-05-20",
+      "close": 61.7757831907
+    },
+    {
+      "date": "2025-05-21",
+      "close": 61.5614868756
+    },
+    {
+      "date": "2025-05-22",
+      "close": 61.7173387411
+    },
+    {
+      "date": "2025-05-23",
+      "close": 61.4738202013
+    },
+    {
+      "date": "2025-05-27",
+      "close": 62.0972276633
+    },
+    {
+      "date": "2025-05-28",
+      "close": 61.697857258
+    },
+    {
+      "date": "2025-05-29",
+      "close": 61.4153757517
+    },
+    {
+      "date": "2025-05-30",
+      "close": 61.4056350101
+    },
+    {
+      "date": "2025-06-02",
+      "close": 62.1946350793
+    },
+    {
+      "date": "2025-06-03",
+      "close": 62.6914129006
+    },
+    {
+      "date": "2025-06-04",
+      "close": 62.7206351254
+    },
+    {
+      "date": "2025-06-05",
+      "close": 62.944672182
+    },
+    {
+      "date": "2025-06-06",
+      "close": 64.3473389716
+    },
+    {
+      "date": "2025-06-09",
+      "close": 64.1914871061
+    },
+    {
+      "date": "2025-06-10",
+      "close": 63.4609314865
+    },
+    {
+      "date": "2025-06-11",
+      "close": 62.5258202935
+    },
+    {
+      "date": "2025-06-12",
+      "close": 63.4122277785
+    },
+    {
+      "date": "2025-06-13",
+      "close": 62.4284128775
+    },
+    {
+      "date": "2025-06-16",
+      "close": 63.8115981839
+    },
+    {
+      "date": "2025-06-17",
+      "close": 63.6362648352
+    },
+    {
+      "date": "2025-06-18",
+      "close": 64.1330426565
+    },
+    {
+      "date": "2025-06-20",
+      "close": 64.600598253
+    },
+    {
+      "date": "2025-06-23",
+      "close": 65.633116862
+    },
+    {
+      "date": "2025-06-24",
+      "close": 66.1298946833
+    },
+    {
+      "date": "2025-06-25",
+      "close": 66.4221169312
+    },
+    {
+      "date": "2025-06-26",
+      "close": 67.1624132923
+    },
+    {
+      "date": "2025-06-27",
+      "close": 66.8701910445
+    },
+    {
+      "date": "2025-06-30",
+      "close": 67.5812651809
+    },
+    {
+      "date": "2025-07-01",
+      "close": 67.3085244162
+    },
+    {
+      "date": "2025-07-02",
+      "close": 66.8117465949
+    },
+    {
+      "date": "2025-07-03",
+      "close": 67.9708948447
+    },
+    {
+      "date": "2025-07-07",
+      "close": 67.5397690881
+    },
+    {
+      "date": "2025-07-08",
+      "close": 67.206626458
+    },
+    {
+      "date": "2025-07-09",
+      "close": 67.8729117182
+    },
+    {
+      "date": "2025-07-10",
+      "close": 67.3731977731
+    },
+    {
+      "date": "2025-07-11",
+      "close": 66.5795344485
+    },
+    {
+      "date": "2025-07-14",
+      "close": 66.4521563841
+    },
+    {
+      "date": "2025-07-15",
+      "close": 65.8250643746
+    },
+    {
+      "date": "2025-07-16",
+      "close": 66.0112323149
+    },
+    {
+      "date": "2025-07-17",
+      "close": 66.9224753912
+    },
+    {
+      "date": "2025-07-18",
+      "close": 66.677517575
+    },
+    {
+      "date": "2025-07-21",
+      "close": 66.9616686418
+    },
+    {
+      "date": "2025-07-22",
+      "close": 66.7852990141
+    },
+    {
+      "date": "2025-07-23",
+      "close": 67.236021396
+    },
+    {
+      "date": "2025-07-24",
+      "close": 66.9126770786
+    },
+    {
+      "date": "2025-07-25",
+      "close": 67.3046095845
+    },
+    {
+      "date": "2025-07-28",
+      "close": 66.5501395106
+    },
+    {
+      "date": "2025-07-29",
+      "close": 66.5893327612
+    },
+    {
+      "date": "2025-07-30",
+      "close": 66.8979796096
+    },
+    {
+      "date": "2025-07-31",
+      "close": 66.706912513
+    },
+    {
+      "date": "2025-08-01",
+      "close": 65.756476186
+    },
+    {
+      "date": "2025-08-04",
+      "close": 67.1086433316
+    },
+    {
+      "date": "2025-08-05",
+      "close": 66.1582070046
+    },
+    {
+      "date": "2025-08-06",
+      "close": 67.8141218423
+    },
+    {
+      "date": "2025-08-07",
+      "close": 68.490205415
+    },
+    {
+      "date": "2025-08-08",
+      "close": 70.3420865057
+    },
+    {
+      "date": "2025-08-11",
+      "close": 69.244675489
+    },
+    {
+      "date": "2025-08-12",
+      "close": 69.9403556871
+    },
+    {
+      "date": "2025-08-13",
+      "close": 68.9801210475
+    },
+    {
+      "date": "2025-08-14",
+      "close": 67.9023066561
+    },
+    {
+      "date": "2025-08-15",
+      "close": 64.864829735
+    },
+    {
+      "date": "2025-08-18",
+      "close": 65.5997031836
+    },
+    {
+      "date": "2025-08-19",
+      "close": 65.4135352433
+    },
+    {
+      "date": "2025-08-20",
+      "close": 65.756476186
+    },
+    {
+      "date": "2025-08-21",
+      "close": 65.6682913722
+    },
+    {
+      "date": "2025-08-22",
+      "close": 65.9622407516
+    },
+    {
+      "date": "2025-08-25",
+      "close": 65.785871124
+    },
+    {
+      "date": "2025-08-26",
+      "close": 67.0106602051
+    },
+    {
+      "date": "2025-08-27",
+      "close": 67.0596517683
+    },
+    {
+      "date": "2025-08-28",
+      "close": 68.0296847205
+    },
+    {
+      "date": "2025-08-29",
+      "close": 67.6965420905
+    },
+    {
+      "date": "2025-09-02",
+      "close": 66.4325597588
+    },
+    {
+      "date": "2025-09-03",
+      "close": 66.3051816944
+    },
+    {
+      "date": "2025-09-04",
+      "close": 66.6187276991
+    },
+    {
+      "date": "2025-09-05",
+      "close": 65.5507116204
+    },
+    {
+      "date": "2025-09-08",
+      "close": 65.5311149951
+    },
+    {
+      "date": "2025-09-09",
+      "close": 65.9818373769
+    },
+    {
+      "date": "2025-09-10",
+      "close": 66.7559040762
+    },
+    {
+      "date": "2025-09-11",
+      "close": 66.3247783197
+    },
+    {
+      "date": "2025-09-12",
+      "close": 65.1881740524
+    },
+    {
+      "date": "2025-09-15",
+      "close": 65.6682913722
+    },
+    {
+      "date": "2025-09-16",
+      "close": 65.5801065583
+    },
+    {
+      "date": "2025-09-17",
+      "close": 66.3541732576
+    },
+    {
+      "date": "2025-09-18",
+      "close": 67.2948112719
+    },
+    {
+      "date": "2025-09-19",
+      "close": 66.8342905774
+    },
+    {
+      "date": "2025-09-22",
+      "close": 66.3835681955
+    },
+    {
+      "date": "2025-09-23",
+      "close": 66.1778036299
+    },
+    {
+      "date": "2025-09-24",
+      "close": 65.9622407516
+    },
+    {
+      "date": "2025-09-25",
+      "close": 66.481551322
+    },
+    {
+      "date": "2025-09-26",
+      "close": 65.8642576252
+    },
+    {
+      "date": "2025-09-29",
+      "close": 66.3541732576
+    },
+    {
+      "date": "2025-09-30",
+      "close": 67.040055143
+    },
+    {
+      "date": "2025-10-01",
+      "close": 67.3633994604
+    },
+    {
+      "date": "2025-10-02",
+      "close": 66.9322737039
+    },
+    {
+      "date": "2025-10-03",
+      "close": 66.9518703292
+    },
+    {
+      "date": "2025-10-06",
+      "close": 67.9277588985
+    },
+    {
+      "date": "2025-10-07",
+      "close": 68.0016898507
+    },
+    {
+      "date": "2025-10-08",
+      "close": 69.3275182605
+    },
+    {
+      "date": "2025-10-09",
+      "close": 68.9627922295
+    },
+    {
+      "date": "2025-10-10",
+      "close": 66.9715852498
+    },
+    {
+      "date": "2025-10-13",
+      "close": 66.4984271556
+    },
+    {
+      "date": "2025-10-14",
+      "close": 67.6813223911
+    },
+    {
+      "date": "2025-10-15",
+      "close": 68.5290639765
+    },
+    {
+      "date": "2025-10-16",
+      "close": 68.1051931838
+    },
+    {
+      "date": "2025-10-17",
+      "close": 69.1303690546
+    },
+    {
+      "date": "2025-10-20",
+      "close": 69.6429569899
+    },
+    {
+      "date": "2025-10-21",
+      "close": 69.711959212
+    },
+    {
+      "date": "2025-10-22",
+      "close": 69.6528144502
+    },
+    {
+      "date": "2025-10-23",
+      "close": 69.2683734987
+    },
+    {
+      "date": "2025-10-24",
+      "close": 69.6232420693
+    },
+    {
+      "date": "2025-10-27",
+      "close": 70.3724090518
+    },
+    {
+      "date": "2025-10-28",
+      "close": 71.5848766682
+    },
+    {
+      "date": "2025-10-29",
+      "close": 70.31326429
+    },
+    {
+      "date": "2025-10-30",
+      "close": 71.8707430168
+    },
+    {
+      "date": "2025-10-31",
+      "close": 72.0678922227
+    },
+    {
+      "date": "2025-11-03",
+      "close": 73.3887919023
+    },
+    {
+      "date": "2025-11-04",
+      "close": 71.2891528593
+    },
+    {
+      "date": "2025-11-05",
+      "close": 71.0722887328
+    },
+    {
+      "date": "2025-11-06",
+      "close": 70.0273979415
+    },
+    {
+      "date": "2025-11-07",
+      "close": 70.0569703224
+    },
+    {
+      "date": "2025-11-10",
+      "close": 71.0624312725
+    },
+    {
+      "date": "2025-11-11",
+      "close": 70.6878477813
+    },
+    {
+      "date": "2025-11-12",
+      "close": 72.9057763478
+    },
+    {
+      "date": "2025-11-13",
+      "close": 76.277027769
+    },
+    {
+      "date": "2025-11-14",
+      "close": 76.8881903074
+    },
+    {
+      "date": "2025-11-17",
+      "close": 76.6713261809
+    },
+    {
+      "date": "2025-11-18",
+      "close": 76.2671703087
+    },
+    {
+      "date": "2025-11-19",
+      "close": 77.2726312589
+    },
+    {
+      "date": "2025-11-20",
+      "close": 74.3646804716
+    },
+    {
+      "date": "2025-11-21",
+      "close": 75.0152728512
+    },
+    {
+      "date": "2025-11-24",
+      "close": 75.1532772953
+    },
+    {
+      "date": "2025-11-25",
+      "close": 75.2321369777
+    },
+    {
+      "date": "2025-11-26",
+      "close": 74.9857004703
+    },
+    {
+      "date": "2025-11-28",
+      "close": 75.843299516
+    },
+    {
+      "date": "2025-12-01",
+      "close": 74.9561280894
+    },
+    {
+      "date": "2025-12-02",
+      "close": 75.7742972939
+    },
+    {
+      "date": "2025-12-03",
+      "close": 76.6417538
+    },
+    {
+      "date": "2025-12-04",
+      "close": 76.6516112603
+    },
+    {
+      "date": "2025-12-05",
+      "close": 76.8586179265
+    },
+    {
+      "date": "2025-12-08",
+      "close": 77.7359318928
+    },
+    {
+      "date": "2025-12-09",
+      "close": 78.376666812
+    },
+    {
+      "date": "2025-12-10",
+      "close": 79.1061188739
+    },
+    {
+      "date": "2025-12-11",
+      "close": 78.1400877649
+    },
+    {
+      "date": "2025-12-12",
+      "close": 76.6910411014
+    },
+    {
+      "date": "2025-12-15",
+      "close": 77.1346268148
+    },
+    {
+      "date": "2025-12-16",
+      "close": 76.444604594
+    },
+    {
+      "date": "2025-12-17",
+      "close": 74.9166982482
+    },
+    {
+      "date": "2025-12-18",
+      "close": 75.8531569763
+    },
+    {
+      "date": "2025-12-19",
+      "close": 77.3022036398
+    },
+    {
+      "date": "2025-12-22",
+      "close": 76.9966223706
+    },
+    {
+      "date": "2025-12-23",
+      "close": 76.9079052279
+    },
+    {
+      "date": "2025-12-24",
+      "close": 76.9079052279
+    },
+    {
+      "date": "2025-12-26",
+      "close": 77.0459096721
+    },
+    {
+      "date": "2025-12-29",
+      "close": 76.6811836411
+    },
+    {
+      "date": "2025-12-30",
+      "close": 76.3066001499
+    },
+    {
+      "date": "2025-12-31",
+      "close": 75.9320166587
+    },
+    {
+      "date": "2026-01-02",
+      "close": 75.3602839615
+    },
+    {
+      "date": "2026-01-05",
+      "close": 74.9043958681
+    },
+    {
+      "date": "2026-01-06",
+      "close": 74.5575244927
+    },
+    {
+      "date": "2026-01-07",
+      "close": 74.0520833457
+    },
+    {
+      "date": "2026-01-08",
+      "close": 73.2988769305
+    },
+    {
+      "date": "2026-01-09",
+      "close": 73.2195920447
+    },
+    {
+      "date": "2026-01-12",
+      "close": 73.3484299841
+    },
+    {
+      "date": "2026-01-13",
+      "close": 74.7953791501
+    },
+    {
+      "date": "2026-01-14",
+      "close": 73.7448544131
+    },
+    {
+      "date": "2026-01-15",
+      "close": 74.5773457141
+    },
+    {
+      "date": "2026-01-16",
+      "close": 74.5178820498
+    },
+    {
+      "date": "2026-01-20",
+      "close": 72.6943296762
+    },
+    {
+      "date": "2026-01-21",
+      "close": 73.0312904409
+    },
+    {
+      "date": "2026-01-22",
+      "close": 73.6655695273
+    },
+    {
+      "date": "2026-01-23",
+      "close": 73.9232454062
+    },
+    {
+      "date": "2026-01-26",
+      "close": 76.3216132019
+    },
+    {
+      "date": "2026-01-27",
+      "close": 77.9766851932
+    },
+    {
+      "date": "2026-01-28",
+      "close": 78.2541822935
+    },
+    {
+      "date": "2026-01-29",
+      "close": 77.7289199251
+    },
+    {
+      "date": "2026-01-30",
+      "close": 77.6199032071
+    },
+    {
+      "date": "2026-02-02",
+      "close": 79.9191648955
+    },
+    {
+      "date": "2026-02-03",
+      "close": 82.3670857449
+    },
+    {
+      "date": "2026-02-04",
+      "close": 80.4345166533
+    },
+    {
+      "date": "2026-02-05",
+      "close": 81.6237899404
+    },
+    {
+      "date": "2026-02-06",
+      "close": 84.0618001791
+    },
+    {
+      "date": "2026-02-09",
+      "close": 86.0042798814
+    },
+    {
+      "date": "2026-02-10",
+      "close": 85.5186599558
+    },
+    {
+      "date": "2026-02-11",
+      "close": 84.7753641513
+    },
+    {
+      "date": "2026-02-12",
+      "close": 74.329580446
+    },
+    {
+      "date": "2026-02-13",
+      "close": 76.1630434303
+    },
+    {
+      "date": "2026-02-17",
+      "close": 76.1630434303
+    },
+    {
+      "date": "2026-02-18",
+      "close": 77.4811546569
+    },
+    {
+      "date": "2026-02-19",
+      "close": 77.8577578645
+    },
+    {
+      "date": "2026-02-20",
+      "close": 78.492036951
+    },
+    {
+      "date": "2026-02-23",
+      "close": 77.0450877849
+    },
+    {
+      "date": "2026-02-24",
+      "close": 77.441512214
+    },
+    {
+      "date": "2026-02-25",
+      "close": 78.4127520652
+    },
+    {
+      "date": "2026-02-26",
+      "close": 77.4018697711
+    },
+    {
+      "date": "2026-02-27",
+      "close": 78.7497128298
+    },
+    {
+      "date": "2026-03-02",
+      "close": 78.7100703869
+    },
+    {
+      "date": "2026-03-03",
+      "close": 78.2541822935
+    },
+    {
+      "date": "2026-03-04",
+      "close": 80.1471089422
+    },
+    {
+      "date": "2026-03-05",
+      "close": 79.2947964198
+    },
+    {
+      "date": "2026-03-06",
+      "close": 77.9370427503
+    },
+    {
+      "date": "2026-03-09",
+      "close": 75.5287643439
+    },
+    {
+      "date": "2026-03-10",
+      "close": 77.005445342
+    },
+    {
+      "date": "2026-03-11",
+      "close": 77.4018697711
+    },
+    {
+      "date": "2026-03-12",
+      "close": 77.0450877849
+    },
+    {
+      "date": "2026-03-13",
+      "close": 77.6298138178
+    },
+    {
+      "date": "2026-03-16",
+      "close": 78.1947186292
+    },
+    {
+      "date": "2026-03-17",
+      "close": 78.561411226
+    },
+    {
+      "date": "2026-03-18",
+      "close": 76.9063392348
+    },
+    {
+      "date": "2026-03-19",
+      "close": 77.8082048109
+    },
+    {
+      "date": "2026-03-20",
+      "close": 76.9558922884
+    },
+    {
+      "date": "2026-03-23",
+      "close": 78.1154337434
+    },
+    {
+      "date": "2026-03-24",
+      "close": 80.1371983315
+    },
+    {
+      "date": "2026-03-25",
+      "close": 81.0985275719
+    },
+    {
+      "date": "2026-03-26",
+      "close": 81.4255777259
+    },
+    {
+      "date": "2026-03-27",
+      "close": 79.2056009232
+    },
+    {
+      "date": "2026-03-30",
+      "close": 76.3513450341
+    },
+    {
+      "date": "2026-03-31",
+      "close": 76.8964286241
+    },
+    {
+      "date": "2026-04-01",
+      "close": 77.2333893887
+    },
+    {
+      "date": "2026-04-02",
+      "close": 78.7298916084
+    },
+    {
+      "date": "2026-04-06",
+      "close": 80.1396966783
+    },
+    {
+      "date": "2026-04-07",
+      "close": 80.3837972028
+    },
+    {
+      "date": "2026-04-08",
+      "close": 83.3927097902
+    },
+    {
+      "date": "2026-04-09",
+      "close": 82.8646555944
+    },
+    {
+      "date": "2026-04-10",
+      "close": 81.9181433566
+    },
+    {
+      "date": "2026-04-13",
+      "close": 82.0476660839
+    },
+    {
+      "date": "2026-04-14",
+      "close": 82.3067115385
+    },
+    {
+      "date": "2026-04-15",
+      "close": 82.0576293706
+    },
+    {
+      "date": "2026-04-16",
+      "close": 84.1897727273
+    },
+    {
+      "date": "2026-04-17",
+      "close": 85.9333479021
+    },
+    {
+      "date": "2026-04-20",
+      "close": 87.3879877622
+    },
+    {
+      "date": "2026-04-21",
+      "close": 89.3706818182
+    },
+    {
+      "date": "2026-04-22",
+      "close": 89.4703146853
+    },
+    {
+      "date": "2026-04-23",
+      "close": 88.264756993
+    },
+    {
+      "date": "2026-04-24",
+      "close": 88.683215035
+    },
+    {
+      "date": "2026-04-27",
+      "close": 87.9359685315
+    },
+    {
+      "date": "2026-04-28",
+      "close": 86.5411083916
+    },
+    {
+      "date": "2026-04-29",
+      "close": 89.2411590909
+    },
+    {
+      "date": "2026-04-30",
+      "close": 91.1640734266
+    },
+    {
+      "date": "2026-05-01",
+      "close": 91.5127884615
+    },
+    {
+      "date": "2026-05-04",
+      "close": 92.2899248252
+    },
+    {
+      "date": "2026-05-05",
+      "close": 93.9537937063
+    },
+    {
+      "date": "2026-05-06",
+      "close": 91.3035594406
+    },
+    {
+      "date": "2026-05-07",
+      "close": 91.8216503497
+    },
+    {
+      "date": "2026-05-08",
+      "close": 96.2154597902
+    },
+    {
+      "date": "2026-05-11",
+      "close": 98.3575664336
+    },
+    {
+      "date": "2026-05-12",
+      "close": 98.9254737762
+    },
+    {
+      "date": "2026-05-13",
+      "close": 101.4960017483
+    },
+    {
+      "date": "2026-05-14",
+      "close": 115.1058513986
+    },
+    {
+      "date": "2026-05-15",
+      "close": 117.7760122378
+    },
+    {
+      "date": "2026-05-18",
+      "close": 118.4435524476
+    },
+    {
+      "date": "2026-05-19",
+      "close": 114.9564020979
+    },
+    {
+      "date": "2026-05-20",
+      "close": 113.9301835664
+    },
+    {
+      "date": "2026-05-21",
+      "close": 117.766048951
+    },
+    {
+      "date": "2026-05-22",
+      "close": 119.9679353147
+    },
+    {
+      "date": "2026-05-26",
+      "close": 117.8955716783
+    },
+    {
+      "date": "2026-05-27",
+      "close": 119.2306520979
+    },
+    {
+      "date": "2026-05-28",
+      "close": 118.2044335664
+    },
+    {
+      "date": "2026-05-29",
+      "close": 119.9778986014
+    },
+    {
+      "date": "2026-06-01",
+      "close": 120.8845576923
+    },
+    {
+      "date": "2026-06-02",
+      "close": 127.5300699301
+    },
+    {
+      "date": "2026-06-03",
+      "close": 126.0355769231
+    },
+    {
+      "date": "2026-06-04",
+      "close": 129.5227272727
+    },
+    {
+      "date": "2026-06-05",
+      "close": 121.1934195804
+    },
+    {
+      "date": "2026-06-08",
+      "close": 123.6942045455
+    },
+    {
+      "date": "2026-06-09",
+      "close": 119.9181188811
+    },
+    {
+      "date": "2026-06-10",
+      "close": 118.3638461538
+    },
+    {
+      "date": "2026-06-11",
+      "close": 121.382722028
+    },
+    {
+      "date": "2026-06-12",
+      "close": 120.6554020979
+    },
+    {
+      "date": "2026-06-15",
+      "close": 119.7288164336
+    },
+    {
+      "date": "2026-06-16",
+      "close": 119.1310192308
+    },
+    {
+      "date": "2026-06-17",
+      "close": 116.899243007
+    },
+    {
+      "date": "2026-06-18",
+      "close": 119.1011293706
+    },
+    {
+      "date": "2026-06-22",
+      "close": 121.0838234266
+    },
+    {
+      "date": "2026-06-23",
+      "close": 120.7052185315
+    },
+    {
+      "date": "2026-06-24",
+      "close": 119.2904318182
+    },
+    {
+      "date": "2026-06-25",
+      "close": 118.533222028
+    },
+    {
+      "date": "2026-06-26",
+      "close": 113.3523129371
+    },
+    {
+      "date": "2026-06-29",
+      "close": 117.2678846154
+    },
+    {
+      "date": "2026-06-30",
+      "close": 117.0287657343
+    },
+    {
+      "date": "2026-07-01",
+      "close": 116.5804178322
+    },
+    {
+      "date": "2026-07-02",
+      "close": 112.276277972
+    },
+    {
+      "date": "2026-07-06",
+      "close": 113.98
+    },
+    {
+      "date": "2026-07-07",
+      "close": 111.79
+    },
+    {
+      "date": "2026-07-08",
+      "close": 113.82
+    },
+    {
+      "date": "2026-07-09",
+      "close": 118.31
+    },
+    {
+      "date": "2026-07-10",
+      "close": 121.31
+    },
+    {
+      "date": "2026-07-13",
+      "close": 119.25
+    },
+    {
+      "date": "2026-07-14",
+      "close": 117.09
+    },
+    {
+      "date": "2026-07-15",
+      "close": 111.77
+    },
+    {
+      "date": "2026-07-16",
+      "close": 109.66
+    },
+    {
+      "date": "2026-07-17",
+      "close": 111.94
+    },
+    {
+      "date": "2026-07-20",
+      "close": 110.7
+    },
+    {
+      "date": "2026-07-21",
+      "close": 112.18
+    },
+    {
+      "date": "2026-07-22",
+      "close": 112.21
+    },
+    {
+      "date": "2026-07-23",
+      "close": 112.76
+    },
+    {
+      "date": "2026-07-24",
+      "close": 114.17
+    },
+    {
+      "date": "2026-07-27",
+      "close": 114.57
+    },
+    {
+      "date": "2026-07-28",
+      "close": 115.58
+    },
+    {
+      "date": "2026-07-29",
+      "close": 112.48
+    },
+    {
+      "date": "2026-07-30",
+      "close": 113.56
+    },
+    {
+      "date": "2026-07-31",
+      "close": 115.99
+    },
+    {
+      "date": "2026-08-03",
+      "close": 115.86
+    },
+    {
+      "date": "2026-08-04",
+      "close": 121.74
+    },
+    {
+      "date": "2026-08-05",
+      "close": 121.5
+    },
+    {
+      "date": "2026-08-06",
+      "close": 120.88
+    },
+    {
+      "date": "2026-08-07",
+      "close": 121.43
+    },
+    {
+      "date": "2026-08-10",
+      "close": 122.57
+    },
+    {
+      "date": "2026-08-11",
+      "close": 120.43
+    },
+    {
+      "date": "2026-08-12",
+      "close": 123.88
+    },
+    {
+      "date": "2026-08-13",
+      "close": 113.47
+    }
+  ]
+}
