@@ -3,12 +3,12 @@
   "name": "Meta Platforms, Inc.",
   "cik": "0001326801",
   "price": {
-    "value": 594.97,
-    "date": "2026-08-13",
+    "value": 589.85,
+    "date": "2026-08-14",
     "source": {
       "url": "https://api.tiingo.com/tiingo/daily/META/prices",
       "source_tier": "T2",
-      "retrieved_at": "2026-08-13T23:04:17Z"
+      "retrieved_at": "2026-08-14T22:12:59Z"
     }
   },
   "fundamentals_source": {
@@ -2610,23 +2610,46 @@
     "available": true,
     "fcf_basis": "TTM",
     "reverse_dcf": {
-      "implied_growth": 0.2428445816040039,
+      "implied_growth": 0.24057221412658691,
       "formula": "solve g: sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue",
       "inputs": {
-        "price": 594.97,
+        "price": 589.85,
         "shares_diluted": 2574000000.0,
-        "market_cap": 1531452780000.0,
+        "market_cap": 1518273900000.0,
         "long_term_debt": 58744000000.0,
         "short_term_debt": null,
         "cash": 35873000000.0,
         "net_debt": 22871000000.0,
-        "enterprise_value": 1554323780000.0,
+        "enterprise_value": 1541144900000.0,
         "fcf_0": 40976000000,
         "wacc": 0.09,
         "terminal_growth": 0.025,
         "years": 5
       },
       "falsifier": "If 5-year FCF growth of this magnitude is not plausible for this business (check against its own growth history and its sector's), the current price is pricing in more (or less) growth than is credible."
+    },
+    "capex_normalized_reverse_dcf": {
+      "implied_revenue_growth": 0.07984781265258789,
+      "formula": "solve g: sum_{t=1..5}[Revenue0*(1+g)^t*(OCFMargin-CapexIntensity_t)/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue -- CapexIntensity_t glides linearly from current to normalized over the forecast",
+      "inputs": {
+        "price": 589.85,
+        "shares_diluted": 2574000000.0,
+        "market_cap": 1518273900000.0,
+        "long_term_debt": 58744000000.0,
+        "short_term_debt": null,
+        "cash": 35873000000.0,
+        "net_debt": 22871000000.0,
+        "enterprise_value": 1541144900000.0,
+        "revenue_0": 228247000000,
+        "ocf_margin": 0.5708771637743322,
+        "current_capex_intensity": 0.3913523507428356,
+        "normalized_capex_intensity": 0.21429797939884598,
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "years": 5
+      },
+      "falsifier": "If 5-year *revenue* growth of this magnitude is not plausible for this business once capex/revenue is assumed to glide back to its own recent normal level (check against its own revenue growth history and its sector's), the current price is pricing in more (or less) growth than is credible even after accounting for elevated capex being temporary.",
+      "basis": "TTM"
     },
     "dcf_scenarios": {
       "bear": {
@@ -2693,48 +2716,44 @@
     },
     "comps": {
       "ev_to_sales": {
-        "value": 7.734262412547396,
+        "value": 7.668684752644726,
         "formula": "enterprise_value / revenue",
         "inputs": {
-          "enterprise_value": 1554323780000.0,
+          "enterprise_value": 1541144900000.0,
           "revenue": 200966000000.0
         }
       },
       "ev_to_ebitda": {
-        "value": 15.254620382365642,
+        "value": 15.12527872649472,
         "formula": "enterprise_value / (operating_income + depreciation_amortization)",
         "inputs": {
-          "enterprise_value": 1554323780000.0,
+          "enterprise_value": 1541144900000.0,
           "operating_income": 83276000000.0,
           "depreciation_amortization": 18616000000.0,
           "ebitda": 101892000000.0
         }
       },
       "price_to_fcf": {
-        "value": 37.3743845177665,
+        "value": 37.052760152284264,
         "formula": "price / (fcf / shares_diluted)",
         "inputs": {
-          "price": 594.97,
+          "price": 589.85,
           "fcf": 40976000000,
           "shares_diluted": 2574000000.0,
           "fcf_per_share": 15.919191919191919
         }
       },
       "price_to_earnings": {
-        "value": 25.328650489570034,
+        "value": 25.110685398041724,
         "formula": "price / eps_diluted",
         "inputs": {
-          "price": 594.97,
+          "price": 589.85,
           "eps_diluted": 23.49
         }
       }
     }
   },
   "price_history": [
-    {
-      "date": "2023-09-15",
-      "close": 297.7309946686
-    },
     {
       "date": "2023-09-18",
       "close": 299.9517579734
@@ -5650,6 +5669,10 @@
     {
       "date": "2026-08-13",
       "close": 594.97
+    },
+    {
+      "date": "2026-08-14",
+      "close": 589.85
     }
   ]
 }

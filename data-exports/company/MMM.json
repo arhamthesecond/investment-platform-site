@@ -4,11 +4,11 @@
   "cik": "0000066740",
   "price": {
     "value": 182.65,
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "source": {
       "url": "https://api.tiingo.com/tiingo/daily/MMM/prices",
       "source_tier": "T2",
-      "retrieved_at": "2026-08-13T23:05:03Z"
+      "retrieved_at": "2026-08-14T22:13:00Z"
     }
   },
   "fundamentals_source": {
@@ -3124,6 +3124,29 @@
       },
       "falsifier": "If 5-year FCF growth of this magnitude is not plausible for this business (check against its own growth history and its sector's), the current price is pricing in more (or less) growth than is credible."
     },
+    "capex_normalized_reverse_dcf": {
+      "implied_revenue_growth": 0.18415284156799316,
+      "formula": "solve g: sum_{t=1..5}[Revenue0*(1+g)^t*(OCFMargin-CapexIntensity_t)/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue -- CapexIntensity_t glides linearly from current to normalized over the forecast",
+      "inputs": {
+        "price": 182.65,
+        "shares_diluted": 541300000.0,
+        "market_cap": 98868445000.0,
+        "long_term_debt": 10932000000.0,
+        "short_term_debt": 1670000000.0,
+        "cash": null,
+        "net_debt": 12602000000.0,
+        "enterprise_value": 111470445000.0,
+        "revenue_0": 25180000000,
+        "ocf_margin": 0.19455917394757744,
+        "current_capex_intensity": 0.036298649722001586,
+        "normalized_capex_intensity": 0.04957699572804283,
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "years": 5
+      },
+      "falsifier": "If 5-year *revenue* growth of this magnitude is not plausible for this business once capex/revenue is assumed to glide back to its own recent normal level (check against its own revenue growth history and its sector's), the current price is pricing in more (or less) growth than is credible even after accounting for elevated capex being temporary.",
+      "basis": "TTM"
+    },
     "dcf_scenarios": {
       "bear": {
         "fair_value_per_share": 48.15944888023578,
@@ -3227,10 +3250,6 @@
     }
   },
   "price_history": [
-    {
-      "date": "2023-09-15",
-      "close": 78.893103598
-    },
     {
       "date": "2023-09-18",
       "close": 78.8774904763
@@ -6145,6 +6164,10 @@
     },
     {
       "date": "2026-08-13",
+      "close": 182.65
+    },
+    {
+      "date": "2026-08-14",
       "close": 182.65
     }
   ]

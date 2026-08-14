@@ -3,12 +3,12 @@
   "name": "TEXAS INSTRUMENTS INC",
   "cik": "0000097476",
   "price": {
-    "value": 273.43,
-    "date": "2026-08-13",
+    "value": 279.58,
+    "date": "2026-08-14",
     "source": {
       "url": "https://api.tiingo.com/tiingo/daily/TXN/prices",
       "source_tier": "T2",
-      "retrieved_at": "2026-08-13T23:05:18Z"
+      "retrieved_at": "2026-08-14T22:13:12Z"
     }
   },
   "fundamentals_source": {
@@ -3082,23 +3082,46 @@
     "available": true,
     "fcf_basis": "TTM",
     "reverse_dcf": {
-      "implied_growth": 0.3107109069824219,
+      "implied_growth": 0.31667327880859375,
       "formula": "solve g: sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue",
       "inputs": {
-        "price": 273.43,
+        "price": 279.58,
         "shares_diluted": 913000000.0,
-        "market_cap": 249641590000.0,
+        "market_cap": 255256540000.0,
         "long_term_debt": 13548000000.0,
         "short_term_debt": 500000000.0,
         "cash": 3225000000.0,
         "net_debt": 10823000000.0,
-        "enterprise_value": 260464590000.0,
+        "enterprise_value": 266079540000.0,
         "fcf_0": 5355000000,
         "wacc": 0.09,
         "terminal_growth": 0.025,
         "years": 5
       },
       "falsifier": "If 5-year FCF growth of this magnitude is not plausible for this business (check against its own growth history and its sector's), the current price is pricing in more (or less) growth than is credible."
+    },
+    "capex_normalized_reverse_dcf": {
+      "implied_revenue_growth": 0.36357903480529785,
+      "formula": "solve g: sum_{t=1..5}[Revenue0*(1+g)^t*(OCFMargin-CapexIntensity_t)/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue -- CapexIntensity_t glides linearly from current to normalized over the forecast",
+      "inputs": {
+        "price": 279.58,
+        "shares_diluted": 913000000.0,
+        "market_cap": 255256540000.0,
+        "long_term_debt": 13548000000.0,
+        "short_term_debt": 500000000.0,
+        "cash": 3225000000.0,
+        "net_debt": 10823000000.0,
+        "enterprise_value": 266079540000.0,
+        "revenue_0": 19453000000,
+        "ocf_margin": 0.44553539299850925,
+        "current_capex_intensity": 0.17025651570451858,
+        "normalized_capex_intensity": 0.21455582225981862,
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "years": 5
+      },
+      "falsifier": "If 5-year *revenue* growth of this magnitude is not plausible for this business once capex/revenue is assumed to glide back to its own recent normal level (check against its own revenue growth history and its sector's), the current price is pricing in more (or less) growth than is credible even after accounting for elevated capex being temporary.",
+      "basis": "TTM"
     },
     "dcf_scenarios": {
       "bear": {
@@ -3165,10 +3188,10 @@
     },
     "comps": {
       "ev_to_sales": {
-        "value": 14.730493722429589,
+        "value": 15.04804546996946,
         "formula": "enterprise_value / revenue",
         "inputs": {
-          "enterprise_value": 260464590000.0,
+          "enterprise_value": 266079540000.0,
           "revenue": 17682000000.0
         }
       },
@@ -3176,37 +3199,33 @@
         "value": null,
         "formula": "enterprise_value / (operating_income + depreciation_amortization)",
         "inputs": {
-          "enterprise_value": 260464590000.0,
+          "enterprise_value": 266079540000.0,
           "operating_income": 6023000000.0,
           "depreciation_amortization": null,
           "ebitda": null
         }
       },
       "price_to_fcf": {
-        "value": 46.61841083099907,
+        "value": 47.66695424836601,
         "formula": "price / (fcf / shares_diluted)",
         "inputs": {
-          "price": 273.43,
+          "price": 279.58,
           "fcf": 5355000000,
           "shares_diluted": 913000000.0,
           "fcf_per_share": 5.865279299014238
         }
       },
       "price_to_earnings": {
-        "value": 50.17064220183486,
+        "value": 51.299082568807336,
         "formula": "price / eps_diluted",
         "inputs": {
-          "price": 273.43,
+          "price": 279.58,
           "eps_diluted": 5.45
         }
       }
     }
   },
   "price_history": [
-    {
-      "date": "2023-09-15",
-      "close": 149.2033223881
-    },
     {
       "date": "2023-09-18",
       "close": 149.3959967068
@@ -6122,6 +6141,10 @@
     {
       "date": "2026-08-13",
       "close": 273.43
+    },
+    {
+      "date": "2026-08-14",
+      "close": 279.58
     }
   ]
 }

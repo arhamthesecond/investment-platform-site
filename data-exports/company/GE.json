@@ -3,24 +3,25 @@
   "name": "GENERAL ELECTRIC CO",
   "cik": "0000040545",
   "price": {
-    "value": 360.64,
-    "date": "2026-08-13",
+    "value": 368.38,
+    "date": "2026-08-14",
     "source": {
       "url": "https://api.tiingo.com/tiingo/daily/GE/prices",
       "source_tier": "T2",
-      "retrieved_at": "2026-08-13T23:04:53Z"
+      "retrieved_at": "2026-08-14T22:12:49Z"
     }
   },
   "fundamentals_source": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000040545.json",
     "source_tier": "T1",
-    "retrieved_at": "2026-08-13T23:23:15Z"
+    "retrieved_at": "2026-08-14T22:12:18Z"
   },
   "fundamentals_history": [
     {
       "fiscal_year": 2025,
       "facts": {
         "BUYBACKS": 7551000000.0,
+        "CAPEX": 1273000000.0,
         "CURRENT_ASSETS": 40596000000.0,
         "CURRENT_LIABILITIES": 38980000000.0,
         "DEPRECIATION_AMORTIZATION": 863000000.0,
@@ -61,26 +62,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 7264000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 8537000000.0,
-            "capex": null
+            "capex": 1273000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.15841238687166068,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 7264000000.0,
             "revenue": 45855000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 0.8345588235294118,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 7264000000.0,
             "net_income": 8704000000.0
           }
         },
@@ -118,10 +119,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.02776142187329626,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1273000000.0,
             "revenue": 45855000000.0
           }
         },
@@ -172,6 +173,7 @@
       "fiscal_year": 2024,
       "facts": {
         "BUYBACKS": 5827000000.0,
+        "CAPEX": 1032000000.0,
         "CURRENT_ASSETS": 37635000000.0,
         "CURRENT_LIABILITIES": 34392000000.0,
         "DEPRECIATION_AMORTIZATION": 834000000.0,
@@ -212,26 +214,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 3678000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 4710000000.0,
-            "capex": null
+            "capex": 1032000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.09503384837992869,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 3678000000.0,
             "revenue": 38702000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 0.561012812690665,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 3678000000.0,
             "net_income": 6556000000.0
           }
         },
@@ -269,10 +271,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.026665288615575423,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1032000000.0,
             "revenue": 38702000000.0
           }
         },
@@ -323,6 +325,7 @@
       "fiscal_year": 2023,
       "facts": {
         "BUYBACKS": 1233000000.0,
+        "CAPEX": 1595000000.0,
         "CURRENT_ASSETS": 59799000000.0,
         "CURRENT_LIABILITIES": 50876000000.0,
         "DEPRECIATION_AMORTIZATION": 1473000000.0,
@@ -363,26 +366,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 3584000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 5179000000.0,
-            "capex": null
+            "capex": 1595000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.052741560467374986,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 3584000000.0,
             "revenue": 67954000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 0.37801919628731145,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 3584000000.0,
             "net_income": 9481000000.0
           }
         },
@@ -420,10 +423,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.02347176030844395,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1595000000.0,
             "revenue": 67954000000.0
           }
         },
@@ -3014,30 +3017,53 @@
     "available": true,
     "fcf_basis": "TTM",
     "reverse_dcf": {
-      "implied_growth": 0.3068850040435791,
+      "implied_growth": 0.3156003952026367,
       "formula": "solve g: sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue",
       "inputs": {
-        "price": 360.64,
+        "price": 368.38,
         "shares_diluted": 1068000000.0,
-        "market_cap": 385163520000.0,
+        "market_cap": 393429840000.0,
         "long_term_debt": 20469000000.0,
         "short_term_debt": 1686000000.0,
         "cash": null,
         "net_debt": 22155000000.0,
-        "enterprise_value": 407318520000.0,
-        "fcf_0": 8490000000,
+        "enterprise_value": 415584840000.0,
+        "fcf_0": 8396000000,
         "wacc": 0.09,
         "terminal_growth": 0.025,
         "years": 5
       },
       "falsifier": "If 5-year FCF growth of this magnitude is not plausible for this business (check against its own growth history and its sector's), the current price is pricing in more (or less) growth than is credible."
     },
+    "capex_normalized_reverse_dcf": {
+      "implied_revenue_growth": 0.3047049045562744,
+      "formula": "solve g: sum_{t=1..5}[Revenue0*(1+g)^t*(OCFMargin-CapexIntensity_t)/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue -- CapexIntensity_t glides linearly from current to normalized over the forecast",
+      "inputs": {
+        "price": 368.38,
+        "shares_diluted": 1068000000.0,
+        "market_cap": 393429840000.0,
+        "long_term_debt": 20469000000.0,
+        "short_term_debt": 1686000000.0,
+        "cash": null,
+        "net_debt": 22155000000.0,
+        "enterprise_value": 415584840000.0,
+        "revenue_0": 50639000000,
+        "ocf_margin": 0.1935267284109086,
+        "current_capex_intensity": 0.027725665988664862,
+        "normalized_capex_intensity": 0.02069022670245527,
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "years": 5
+      },
+      "falsifier": "If 5-year *revenue* growth of this magnitude is not plausible for this business once capex/revenue is assumed to glide back to its own recent normal level (check against its own revenue growth history and its sector's), the current price is pricing in more (or less) growth than is credible even after accounting for elevated capex being temporary.",
+      "basis": "TTM"
+    },
     "dcf_scenarios": {
       "bear": {
-        "fair_value_per_share": 37.36825161181537,
+        "fair_value_per_share": 36.724837293603,
         "formula": "(sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years - NetDebt) / SharesDiluted",
         "inputs": {
-          "fcf_0": 8490000000,
+          "fcf_0": 8396000000,
           "growth_rate": -0.143017071960586,
           "wacc": 0.09,
           "terminal_growth": 0.025,
@@ -3047,10 +3073,10 @@
         }
       },
       "base": {
-        "fair_value_per_share": 52.940749403626874,
+        "fair_value_per_share": 52.12491873766067,
         "formula": "(sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years - NetDebt) / SharesDiluted",
         "inputs": {
-          "fcf_0": 8490000000,
+          "fcf_0": 8396000000,
           "growth_rate": -0.093017071960586,
           "wacc": 0.09,
           "terminal_growth": 0.025,
@@ -3060,10 +3086,10 @@
         }
       },
       "bull": {
-        "fair_value_per_share": 72.0062715727853,
+        "fair_value_per_share": 70.97935031978717,
         "formula": "(sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years - NetDebt) / SharesDiluted",
         "inputs": {
-          "fcf_0": 8490000000,
+          "fcf_0": 8396000000,
           "growth_rate": -0.043017071960586004,
           "wacc": 0.09,
           "terminal_growth": 0.025,
@@ -3074,33 +3100,33 @@
       }
     },
     "sensitivity_grid": {
-      "0.07|0.015": 68.32702511355602,
-      "0.07|0.02": 75.09461760342593,
-      "0.07|0.025": 83.36611953548913,
-      "0.07|0.03": 93.70549695056813,
-      "0.08|0.015": 55.37290304095156,
-      "0.08|0.02": 59.970621517415196,
-      "0.08|0.025": 65.40428880778128,
-      "0.08|0.03": 71.92468955622061,
-      "0.09|0.015": 45.85066527773151,
-      "0.09|0.02": 49.14249005046866,
-      "0.09|0.025": 52.940749403626874,
-      "0.09|0.03": 57.372051982311504,
-      "0.1|0.015": 38.54997191176262,
-      "0.1|0.02": 41.000289351388794,
-      "0.1|0.025": 43.7773157829651,
-      "0.1|0.03": 46.951060276195214,
-      "0.11|0.015": 32.77005413116322,
-      "0.11|0.02": 34.64956124788375,
-      "0.11|0.025": 36.750186848924315,
-      "0.11|0.03": 39.11339065009496
+      "0.07|0.015": 67.34083992265066,
+      "0.07|0.02": 74.03350264879292,
+      "0.07|0.025": 82.21342375852234,
+      "0.07|0.03": 92.4383251456841,
+      "0.08|0.015": 54.53014393659799,
+      "0.08|0.02": 59.07695716726805,
+      "0.08|0.025": 64.45046371260536,
+      "0.08|0.03": 70.89867156701013,
+      "0.09|0.015": 45.113334954266364,
+      "0.09|0.02": 48.36871313941373,
+      "0.09|0.025": 52.12491873766067,
+      "0.09|0.03": 56.50715860228212,
+      "0.1|0.015": 37.89347376455201,
+      "0.1|0.02": 40.31666165891024,
+      "0.1|0.025": 43.062941272516234,
+      "0.1|0.03": 46.20154654520879,
+      "0.11|0.015": 32.17755036220662,
+      "0.11|0.02": 34.036247859495845,
+      "0.11|0.025": 36.113615650583775,
+      "0.11|0.03": 38.45065441555772
     },
     "comps": {
       "ev_to_sales": {
-        "value": 8.882750408897612,
+        "value": 9.063021262675827,
         "formula": "enterprise_value / revenue",
         "inputs": {
-          "enterprise_value": 407318520000.0,
+          "enterprise_value": 415584840000.0,
           "revenue": 45855000000.0
         }
       },
@@ -3108,37 +3134,33 @@
         "value": null,
         "formula": "enterprise_value / (operating_income + depreciation_amortization)",
         "inputs": {
-          "enterprise_value": 407318520000.0,
+          "enterprise_value": 415584840000.0,
           "operating_income": null,
           "depreciation_amortization": 863000000.0,
           "ebitda": null
         }
       },
       "price_to_fcf": {
-        "value": 45.366727915194346,
+        "value": 46.85919961886613,
         "formula": "price / (fcf / shares_diluted)",
         "inputs": {
-          "price": 360.64,
-          "fcf": 8490000000,
+          "price": 368.38,
+          "fcf": 8396000000,
           "shares_diluted": 1068000000.0,
-          "fcf_per_share": 7.949438202247191
+          "fcf_per_share": 7.861423220973783
         }
       },
       "price_to_earnings": {
-        "value": 44.3046683046683,
+        "value": 45.255528255528255,
         "formula": "price / eps_diluted",
         "inputs": {
-          "price": 360.64,
+          "price": 368.38,
           "eps_diluted": 8.14
         }
       }
     }
   },
   "price_history": [
-    {
-      "date": "2023-09-15",
-      "close": 90.668313838
-    },
     {
       "date": "2023-09-18",
       "close": 91.5161948575
@@ -6054,6 +6076,10 @@
     {
       "date": "2026-08-13",
       "close": 360.64
+    },
+    {
+      "date": "2026-08-14",
+      "close": 368.38
     }
   ]
 }

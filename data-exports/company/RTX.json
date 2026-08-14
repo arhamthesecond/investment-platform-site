@@ -3,18 +3,18 @@
   "name": "RTX Corp",
   "cik": "0000101829",
   "price": {
-    "value": 220.48,
-    "date": "2026-08-13",
+    "value": 222.97,
+    "date": "2026-08-14",
     "source": {
       "url": "https://api.tiingo.com/tiingo/daily/RTX/prices",
       "source_tier": "T2",
-      "retrieved_at": "2026-08-13T23:05:01Z"
+      "retrieved_at": "2026-08-14T22:13:09Z"
     }
   },
   "fundamentals_source": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json",
     "source_tier": "T1",
-    "retrieved_at": "2026-08-13T23:23:15Z"
+    "retrieved_at": "2026-08-14T22:12:27Z"
   },
   "fundamentals_history": [
     {
@@ -1102,6 +1102,7 @@
       "fiscal_year": 2018,
       "facts": {
         "BUYBACKS": 325000000.0,
+        "CAPEX": 1902000000.0,
         "CASH_AND_EQUIVALENTS": 6152000000.0,
         "CURRENT_ASSETS": 35503000000.0,
         "CURRENT_LIABILITIES": 31368000000.0,
@@ -1148,7 +1149,7 @@
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": null,
-            "capex": null
+            "capex": 1902000000.0
           }
         },
         "FCF_MARGIN": {
@@ -1201,10 +1202,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.028601073668065143,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1902000000.0,
             "revenue": 66501000000.0
           }
         },
@@ -1255,6 +1256,7 @@
       "fiscal_year": 2017,
       "facts": {
         "BUYBACKS": 1453000000.0,
+        "CAPEX": 2014000000.0,
         "CASH_AND_EQUIVALENTS": 8985000000.0,
         "COST_OF_REVENUE": 31027000000.0,
         "CURRENT_ASSETS": 32858000000.0,
@@ -1302,7 +1304,7 @@
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": null,
-            "capex": null
+            "capex": 2014000000.0
           }
         },
         "FCF_MARGIN": {
@@ -1355,10 +1357,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.03365810451727192,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 2014000000.0,
             "revenue": 59837000000.0
           }
         },
@@ -1409,6 +1411,7 @@
       "fiscal_year": 2016,
       "facts": {
         "BUYBACKS": 2254000000.0,
+        "CAPEX": 1699000000.0,
         "CASH_AND_EQUIVALENTS": 7157000000.0,
         "COST_OF_REVENUE": 30325000000.0,
         "CURRENT_ASSETS": 28550000000.0,
@@ -1456,7 +1459,7 @@
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": null,
-            "capex": null
+            "capex": 1699000000.0
           }
         },
         "FCF_MARGIN": {
@@ -1509,10 +1512,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.02967996645936692,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1699000000.0,
             "revenue": 57244000000.0
           }
         },
@@ -1563,6 +1566,7 @@
       "fiscal_year": 2015,
       "facts": {
         "BUYBACKS": 10000000000.0,
+        "CAPEX": 1652000000.0,
         "CASH_AND_EQUIVALENTS": 7075000000.0,
         "COST_OF_REVENUE": 29771000000.0,
         "CURRENT_ASSETS": 26706000000.0,
@@ -1610,7 +1614,7 @@
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": null,
-            "capex": null
+            "capex": 1652000000.0
           }
         },
         "FCF_MARGIN": {
@@ -1663,10 +1667,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.029448465185924633,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1652000000.0,
             "revenue": 56098000000.0
           }
         },
@@ -1717,6 +1721,7 @@
       "fiscal_year": 2014,
       "facts": {
         "BUYBACKS": 1500000000.0,
+        "CAPEX": 1711000000.0,
         "CASH_AND_EQUIVALENTS": 5229000000.0,
         "COST_OF_REVENUE": 36044000000.0,
         "CURRENT_ASSETS": 29758000000.0,
@@ -1761,26 +1766,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 5625000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 7336000000.0,
-            "capex": null
+            "capex": 1711000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.08640552995391705,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5625000000.0,
             "revenue": 65100000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 0.9043408360128617,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5625000000.0,
             "net_income": 6220000000.0
           }
         },
@@ -1818,10 +1823,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.026282642089093703,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1711000000.0,
             "revenue": 65100000000.0
           }
         },
@@ -1872,6 +1877,7 @@
       "fiscal_year": 2013,
       "facts": {
         "BUYBACKS": 1200000000.0,
+        "CAPEX": 1688000000.0,
         "CASH_AND_EQUIVALENTS": 4607000000.0,
         "COST_OF_REVENUE": 34063000000.0,
         "CURRENT_ASSETS": 29442000000.0,
@@ -1916,26 +1922,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 5817000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 7505000000.0,
-            "capex": null
+            "capex": 1688000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.09288474435537955,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5817000000.0,
             "revenue": 62626000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 1.0167802831672785,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5817000000.0,
             "net_income": 5721000000.0
           }
         },
@@ -1973,10 +1979,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.026953661418580143,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1688000000.0,
             "revenue": 62626000000.0
           }
         },
@@ -2027,6 +2033,7 @@
       "fiscal_year": 2012,
       "facts": {
         "BUYBACKS": 0.0,
+        "CAPEX": 1389000000.0,
         "COST_OF_REVENUE": 31094000000.0,
         "CURRENT_ASSETS": 29610000000.0,
         "CURRENT_LIABILITIES": 23786000000.0,
@@ -2070,26 +2077,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 5216000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 6605000000.0,
-            "capex": null
+            "capex": 1389000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.09038608165245719,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5216000000.0,
             "revenue": 57708000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 1.0167641325536063,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5216000000.0,
             "net_income": 5130000000.0
           }
         },
@@ -2127,10 +2134,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.02406945310875442,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1389000000.0,
             "revenue": 57708000000.0
           }
         },
@@ -2181,6 +2188,7 @@
       "fiscal_year": 2011,
       "facts": {
         "BUYBACKS": 2175000000.0,
+        "CAPEX": 983000000.0,
         "COST_OF_REVENUE": 31026000000.0,
         "CURRENT_ASSETS": 25758000000.0,
         "CURRENT_LIABILITIES": 18616000000.0,
@@ -2224,26 +2232,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 5607000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 6590000000.0,
-            "capex": null
+            "capex": 983000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.0963567623302973,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5607000000.0,
             "revenue": 58190000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 1.1261297449287004,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5607000000.0,
             "net_income": 4979000000.0
           }
         },
@@ -2281,10 +2289,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.016892936930744114,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 983000000.0,
             "revenue": 58190000000.0
           }
         },
@@ -2335,6 +2343,7 @@
       "fiscal_year": 2010,
       "facts": {
         "BUYBACKS": 2200000000.0,
+        "CAPEX": 865000000.0,
         "COST_OF_REVENUE": 28956000000.0,
         "CURRENT_ASSETS": 23510000000.0,
         "CURRENT_LIABILITIES": 17732000000.0,
@@ -2378,26 +2387,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 5041000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 5906000000.0,
-            "capex": null
+            "capex": 865000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.0927916651327173,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5041000000.0,
             "revenue": 54326000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 1.1527555453921794,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 5041000000.0,
             "net_income": 4373000000.0
           }
         },
@@ -2435,10 +2444,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.015922394433604537,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 865000000.0,
             "revenue": 54326000000.0
           }
         },
@@ -2489,6 +2498,7 @@
       "fiscal_year": 2009,
       "facts": {
         "BUYBACKS": 1100000000.0,
+        "CAPEX": 826000000.0,
         "COST_OF_REVENUE": 28905000000.0,
         "CURRENT_ASSETS": 23194000000.0,
         "CURRENT_LIABILITIES": 17913000000.0,
@@ -2532,26 +2542,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 4527000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 5353000000.0,
-            "capex": null
+            "capex": 826000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.08554421768707483,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 4527000000.0,
             "revenue": 52920000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 1.1822930268999738,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 4527000000.0,
             "net_income": 3829000000.0
           }
         },
@@ -2589,10 +2599,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.015608465608465608,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 826000000.0,
             "revenue": 52920000000.0
           }
         },
@@ -2643,6 +2653,7 @@
       "fiscal_year": 2008,
       "facts": {
         "BUYBACKS": 3160000000.0,
+        "CAPEX": 1216000000.0,
         "COST_OF_REVENUE": 32833000000.0,
         "CURRENT_ASSETS": 24467000000.0,
         "CURRENT_LIABILITIES": 19802000000.0,
@@ -2685,26 +2696,26 @@
           }
         },
         "FREE_CASH_FLOW": {
-          "value": null,
+          "value": 4945000000.0,
           "formula": "operating_cash_flow - capex",
           "inputs": {
             "operating_cash_flow": 6161000000.0,
-            "capex": null
+            "capex": 1216000000.0
           }
         },
         "FCF_MARGIN": {
-          "value": null,
+          "value": 0.08275181150325485,
           "formula": "free_cash_flow / revenue",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 4945000000.0,
             "revenue": 59757000000.0
           }
         },
         "FCF_CONVERSION": {
-          "value": null,
+          "value": 1.0545958626572831,
           "formula": "free_cash_flow / net_income",
           "inputs": {
-            "free_cash_flow": null,
+            "free_cash_flow": 4945000000.0,
             "net_income": 4689000000.0
           }
         },
@@ -2742,10 +2753,10 @@
           }
         },
         "CAPEX_INTENSITY": {
-          "value": null,
+          "value": 0.020349080442458624,
           "formula": "capex / revenue",
           "inputs": {
-            "capex": null,
+            "capex": 1216000000.0,
             "revenue": 59757000000.0
           }
         },
@@ -3083,23 +3094,46 @@
     "available": true,
     "fcf_basis": "TTM",
     "reverse_dcf": {
-      "implied_growth": 0.14115560054779053,
+      "implied_growth": 0.14403092861175537,
       "formula": "solve g: sum_{t=1..5}[FCF0*(1+g)^t/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue",
       "inputs": {
-        "price": 220.48,
+        "price": 222.97,
         "shares_diluted": 1356400000.0,
-        "market_cap": 299059072000.0,
+        "market_cap": 302436508000.0,
         "long_term_debt": null,
         "short_term_debt": 204000000.0,
         "cash": 7435000000.0,
         "net_debt": -7231000000.0,
-        "enterprise_value": 291828072000.0,
+        "enterprise_value": 295205508000.0,
         "fcf_0": 11407000000,
         "wacc": 0.09,
         "terminal_growth": 0.025,
         "years": 5
       },
       "falsifier": "If 5-year FCF growth of this magnitude is not plausible for this business (check against its own growth history and its sector's), the current price is pricing in more (or less) growth than is credible."
+    },
+    "capex_normalized_reverse_dcf": {
+      "implied_revenue_growth": 0.15107834339141846,
+      "formula": "solve g: sum_{t=1..5}[Revenue0*(1+g)^t*(OCFMargin-CapexIntensity_t)/(1+WACC)^t] + TerminalValue/(1+WACC)^years == EnterpriseValue -- CapexIntensity_t glides linearly from current to normalized over the forecast",
+      "inputs": {
+        "price": 222.97,
+        "shares_diluted": 1356400000.0,
+        "market_cap": 302436508000.0,
+        "long_term_debt": null,
+        "short_term_debt": 204000000.0,
+        "cash": 7435000000.0,
+        "net_debt": -7231000000.0,
+        "enterprise_value": 295205508000.0,
+        "revenue_0": 93500000000,
+        "ocf_margin": 0.15193582887700535,
+        "current_capex_intensity": 0.029935828877005348,
+        "normalized_capex_intensity": 0.0336271999503176,
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "years": 5
+      },
+      "falsifier": "If 5-year *revenue* growth of this magnitude is not plausible for this business once capex/revenue is assumed to glide back to its own recent normal level (check against its own revenue growth history and its sector's), the current price is pricing in more (or less) growth than is credible even after accounting for elevated capex being temporary.",
+      "basis": "TTM"
     },
     "dcf_scenarios": {
       "bear": {
@@ -3166,48 +3200,44 @@
     },
     "comps": {
       "ev_to_sales": {
-        "value": 3.2936590408902635,
+        "value": 3.3317777953342436,
         "formula": "enterprise_value / revenue",
         "inputs": {
-          "enterprise_value": 291828072000.0,
+          "enterprise_value": 295205508000.0,
           "revenue": 88603000000.0
         }
       },
       "ev_to_ebitda": {
-        "value": 21.33558064044451,
+        "value": 21.582505337037578,
         "formula": "enterprise_value / (operating_income + depreciation_amortization)",
         "inputs": {
-          "enterprise_value": 291828072000.0,
+          "enterprise_value": 295205508000.0,
           "operating_income": 9300000000.0,
           "depreciation_amortization": 4378000000.0,
           "ebitda": 13678000000.0
         }
       },
       "price_to_fcf": {
-        "value": 26.217153677566404,
+        "value": 26.51323818707811,
         "formula": "price / (fcf / shares_diluted)",
         "inputs": {
-          "price": 220.48,
+          "price": 222.97,
           "fcf": 11407000000,
           "shares_diluted": 1356400000.0,
           "fcf_per_share": 8.409761132409319
         }
       },
       "price_to_earnings": {
-        "value": 44.45161290322581,
+        "value": 44.953629032258064,
         "formula": "price / eps_diluted",
         "inputs": {
-          "price": 220.48,
+          "price": 222.97,
           "eps_diluted": 4.96
         }
       }
     }
   },
   "price_history": [
-    {
-      "date": "2023-09-15",
-      "close": 71.6287445278
-    },
     {
       "date": "2023-09-18",
       "close": 71.0428629763
@@ -6123,6 +6153,10 @@
     {
       "date": "2026-08-13",
       "close": 220.48
+    },
+    {
+      "date": "2026-08-14",
+      "close": 222.97
     }
   ]
 }
